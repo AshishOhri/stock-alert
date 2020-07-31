@@ -9,3 +9,6 @@ The app.py file is the main file to run the app. The app runs using [selenium's 
 |app.py|Main file to run the file.|
 |get_nifty50.py|Used to get data of nifty 50 stocks from [nseindia](https://www1.nseindia.com/products/content/derivatives/equities/fo_underlying_home.htm) and store the data in nse_nifty50.txt and nifty50tickers.pickle |
 |requirements.txt| All external libraries to be downloaded|
+
+#### Screenshot of Alert
+<img src="https://github.com/AshishOhri/stock-alert/blob/master/Capture.JPG" width="400px">
