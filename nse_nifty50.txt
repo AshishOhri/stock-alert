@@ -1,0 +1,1093 @@
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>NSE - National Stock Exchange of India Ltd.</title>
+<link href="/common/css/style.css" rel="stylesheet" type="text/css">
+
+
+<iframe src="javascript:false" title="" style="width: 0px; height: 0px; border: 0px none; display: none;"></iframe><script type="text/javascript">
+var page=["eqder_luui","products"];
+</script>
+<script type="text/javascript" src="/common/js/jquery-1.4.4.min.js"></script>
+<link rel="stylesheet" href="/jqueryui/themes/base/jquery.ui.all.css">
+<script src="/jqueryui/ui/minified/jquery.ui.core.min.js"></script>
+<script src="/jqueryui/ui/minified/jquery.ui.widget.min.js"></script>
+<script src="/jqueryui/ui/minified/jquery.ui.datepicker.min.js"></script>
+<script language="javascript" src="/js/wdm_turnover.js"></script>
+<script language="javascript" src="/js/validateWDMGrowth.js"></script>
+<script language="javascript" src="/js/ipo/jppast_issue_yr.js"></script>
+<script type="text/javascript" src="/common/js/mainNav.js"></script><script type="text/javascript" src="/common/js/subNav.js"></script><script type="text/javascript" src="/emerge/javaScript/nifty.js"></script><script type="text/javascript" src="/emerge/autosuggest/js/autosuggest.js"></script><script type="text/javascript" src="/emerge/homepage/homepageIndices.js"></script>
+<script type="text/javascript" src="/common/js/js.js"></script><script type="text/javascript" src="/common/js/common.js"></script><script type="text/javascript" src="/common/js/mpulse.js"></script><script type="text/javascript" src="/javaScript/nifty.js"></script><script type="text/javascript" src="/autosuggest/js/script.js"></script><script type="text/javascript" src="/live_market/resources/js/ticker.js"></script><script type="text/javascript" src="/javaScript/cookie_operations.js"></script><script type="text/javascript" src="/javaScript/recentQuotes.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="/common/images/favicon.ico">
+<script>bazadebezolkohpepadr="1489641557"</script><script type="text/javascript" src="https://www1.nseindia.com/akam/11/58ca22bc" defer=""></script><meta http-equiv="X-UA-Compatible" content="IE=8"></head>
+<body>
+<div class="topLine"></div><div id="container" style="display: block;"> 
+	<!--Wrapper Start-->
+	<div id="wrapper"><div class="logo"><a href="/index_nse.htm"><img src="/common/images/logo.jpg" alt="NSE"></a> 	</div>    <div class="topSearch">               	<div class="topLinks">           			 <a href="/global/content/about_us/about_us.htm">About Us</a>           			 <a href="/global/content/investor_rel/corporate_structure.htm">Investor Relations</a>           			 <a href="/global/content/media/nse_news.htm">Media</a>           			 <a href="https://www.nseindia.com/resources/exchange-communication-circulars">Circulars</a>            			 <a href="/global/content/market_timings_holidays/market_timings_holidays.htm">Holidays</a>           			 <a href="https://www.nseindia.com/regulation">Regulations</a>            			 <a href="https://www.nseindia.com/contact/contact-us" class="last">Contact Us</a>           			 <!-- input type='text' value='Search NSE' name='search' class='arrow searchNSC' -->                      			 <input id="searchBox" class="arrow searchNSC" type="text" onblur="inserttext('Search NSE',this);" onfocus="cleartext('Search NSE',this);" onkeypress="if(event.keyCode==13){searchCheck();}" value="Search NSE">           		 </div>           		 <div class="clear"></div>           			<div class="search">           				<div class="equity">           					<div class="selectVal arrow">Equity</div>                          <!--      <ul class='equityUl'>			provided by Indigo to handle cross browser issue                               	<li>Equity</li>                                   <li>Equity Derivatives</li>                                   <li>Currency Derivatives</li>                               </ul> -->                                          					<select id="QuoteSearch">           						<option>Equity</option>           						<option>Equity Derivatives</option>           						<option>Currency Derivatives</option>           						<option>Commodity Derivatives</option>									</select>                                                                          				</div>           				<!-- Quote RM 19NOV213 starts-->           				<input type="text" class="arrow" onblur="inserttext('Enter company name or symbol',this);" onfocus="cleartext('Enter company name or symbol',this);" value="Enter company name or symbol" autocomplete="off" name="companyED" onkeydown="if(event.keyCode==13) return false;" onkeyup="onKeyUp(event,&quot;keyword&quot;);" id="keyword">           				<input type="text" class="arrow" onblur="inserttext('Enter company name or symbol',this);" onfocus="cleartext('Enter company name or symbol',this);" value="Enter company name or symbol" autocomplete="off" name="companyED" onkeydown="if(event.keyCode==13) return false;" onkeyup="onKeyUp(event,&quot;EDkeyword&quot;);" id="fokeyword" style="display: none;">           				<input type="text" class="arrow" onblur="inserttext('Enter company name or symbol',this);" onfocus="cleartext('Enter company name or symbol',this);" value="Enter company name or symbol" autocomplete="off" name="CIDkeyword" onkeydown="if(event.keyCode==13) return false;" onkeyup="onKeyUp(event,&quot;CIDkeyword&quot;);" id="cidkeyword" style="display: none;">         				<input type="text" class="arrow" onblur="inserttext('Enter company name or symbol',this);" onfocus="cleartext('Enter company name or symbol',this);" value="Enter company name or symbol" autocomplete="off" name="COMDkeyword" onkeydown="if(event.keyCode==13) return false;" onkeyup="onKeyUp(event,&quot;COMDkeyword&quot;);" id="comdkeyword" style="display: none;">    				<span id="ajax_response" style="width: 436px; display: none;"></span>           				<!-- input type='text' value='Enter company name or symbol' name='search' class='arrow' -->           				<!-- Quote RM 19NOV213 starts-->           			</div>               </div>               <!-- Nifty corner starts here Added by RM 21112013-->               <div class="topRightText">           	<div id="niftyDiv"> <div class="top_curve"></div> <p class="left" style="border-right: 1px dotted grey;"> 	<span><img src="/common/images/nifty50-logo.gif" alt="Nifty 50 Logo" border="0"></span></p><p class="right" style="padding-top:16px"><font style="font-weight:bold;color:black;font-size:2.3em;line-height: 20px;margin-right:16px;"><nobr>11,073.45</nobr></font><br> </p><p><font style="font-weight:bold;color:black;font-size:1.3em;line-height: 20px;"><nobr><span class="red" style="margin-left: 5px; margin-right: 2px;">-28.70</span><span class="arrowRed"> </span><span class="red">-0.26%</span>&nbsp;</nobr></font></p><br> <p></p></div>           		<div>           		           		           			<p class="notification" style="width:250px; float: left;"><span id="status1" style="color:red;">Normal Market has Closed.   Jul 31, 2020</span><br><span>Next Trading Date : Aug 03 , 2020</span></p>            			           		<p style="padding:2px 3px 0px 0px; float:right; font-size:1.1em; font-weight:bold;">(All prices in <img alt="" src="/common/images/rupee_symbol.gif">) </p>           		           		<!--p id='trdDt' style='padding:2px 20px 10px 5px; float:left; font-size:1.1em; font-weight:bold;'></p -->           		</div>           	</div>        
+		
+		<!--Main Menu Start-->
+		<div id="main_menu"><ul><li id="main_home"><a href="/index_nse.htm"><img src="/common/images/home_icon2.png" alt="Go to Home" border="0"></a></li><li id="main_livemkt"><a href="#">Live Market</a><div class="innerNav" id="navlivemkt" style="display:none;clear:both"><ul><li id="main_livewth"><span>Live Watch</span><ul class="submenu"><li id="main_livewth_preopenmkt"><a href="https://www.nseindia.com/market-data/pre-open-market-cm-and-emerge-market">Pre-Open Market</a></li><li id="main_livewth_stkwth"><a href="/live_market/dynaContent/live_watch/equities_stock_watch.htm ">Equity Stock</a></li><li id="main_livewth_deri"><a href="/live_market/dynaContent/live_watch/derivative_stock_watch.htm">Equity Derivatives</a></li><li id="main_livewth_comderi"><a href="/live_market/dynaContent/live_watch/commodity_der_stock_watch.htm">Commodity Derivatives</a></li><li id="main_livewth_currderi"><a href="/live_market/dynaContent/live_watch/curr_der_stock_watch.htm">Currency Derivatives</a></li><li id="main_livewth_irf"><a href="https://www.nseindia.com/market-data/bond-market-futures">Interest Rate Futures</a></li><li id="main_livewth_liw"><a href="/live_market/dynaContent/live_watch/live_index_watch.htm">Index</a></li><li id="main_livewth_percallauc"><a href="/live_market/dynaContent/live_watch/call_auction/periodic_call_auction.htm?cat=PCA">Stocks in Call Auction</a></li><li id="main_livewth_slbs"><a href="https://www.nseindia.com/market-data/securities-lending-and-borrowing">SLB</a></li><li id="main_livewth_sgb"><a href="https://www.nseindia.com/market-data/sovereign-gold-bond">Sovereign Gold Bond</a></li><li id="main_livewth_stkwth"><a href="https://www.nseindia.com/market-data/exchange-traded-funds-etf">Exchange Traded Funds</a></li><li id="main_livewth_stkwth"><a href="https://www.nseindia.com/market-data/bonds-traded-in-capital-market">Bonds Traded in CM</a></li><li id="main_livewth_deri"><a href="/live_market/dynaContent/live_watch/derivative_stock_watch.htm?cat=GI">Global Indices Derivatives</a></li></ul></li><li id="main_ochain"><span>Option Chain</span><ul class="submenu"><li id="main_livewth_oc"><a href="/live_market/dynaContent/live_watch/option_chain/optionKeys.jsp?symbolCode=-10006&amp;symbol=NIFTY&amp;symbol=NIFTY&amp;instrument=-&amp;date=-&amp;segmentLink=17&amp;symbolCount=2&amp;segmentLink=17">Equity Derivatives</a></li><li id="main_livewth_cd"><a href="/live_market/dynaContent/live_watch/fxTracker/optChainDataByExpDates.jsp">Currency Derivatives</a></li></ul></li><li id="main_liveany"><span>Live Analysis</span><ul class="submenu"><li id="main_liveany_ttg"><a href="/live_market/dynaContent/live_analysis/top_gainers_losers.htm">Top Ten Gainers / Losers&nbsp;</a></li><li id="main_liveany_masc"><a href="/live_market/dynaContent/live_analysis/most_active_securities.htm">Most Active Securities / Contracts</a></li><li id="main_live_advdec"><a href="/live_market/dynaContent/live_market.htm">Advances / Declines</a></li><li id="main_live_newhigh"><a href="/products/content/equities/equities/eq_new_high_low.htm">New 52 Week High Low</a></li><li id="main_livewth_volSpurts"><a href="/live_market/dynaContent/live_watch/volume_spurts.htm">Volume Gainers</a></li><li id="main_livewth_cht"><a href="/ChartApp/install/charts/mainpage.jsp" target="_blank">Charts</a></li><li id="main_live_priceBand"><a href="/products/content/equities/equities/price_band_hitters.htm">Price Band Hitters</a></li><li id="main_live_oispurts"><a href="/products/content/equities/equities/oi_spurts.htm">OI Spurts</a></li></ul></li><li id="main_livetool"><span>Tools</span><ul class="submenu"><li id="main_liveany_margin"><a href="/live_market/dynaContent/live_watch/margincalc/CMInputMargincalc.jsp">Margin Calculator</a></li><li id="main_mynse"><a href="/portfolioTracker/content/mynse/nseUserlogin.htm">My NSE</a></li></ul></li></ul></div></li><li id="main_prd" class="active"><a href="/products.htm">Products</a><div class="innerNav" id="navprd" style="display:none;clear:both"><ul><li id="main_Equity"><span>Capital Market</span><ul class="submenu"><li id="main_equitie"><a href="/products/content/equities/equities/equities.htm">Equities</a></li><li id="main_ind"><a href="/products/content/equities/indices/indices.htm">Indices</a></li><li id="main_mut"><a href="/products/content/equities/mutual_funds/mfss.htm">Mutual Funds</a></li><li id="main_etf"><a href="https://www.nseindia.com/products-services/about-etfs">Exchange Traded Funds</a></li><li id="main_ipo"><a href="https://www.nseindia.com/products-services/about-initial-public-offerings">Initial Public Offerings</a></li><li id="main_ofs_hm"><a href="/live_market/content/live_watch/offer_sale/ofs_sale.htm">Offer for Sale</a></li><li id="main_ipp_hm"><a href="/live_market/content/live_watch/ipp/ipp_sale.htm">Institutional Placement Program</a></li><li id="main_slbs"><a href="/products/content/equities/slbs/slbs.htm">Security Lending and Borrowing Scheme</a></li><li id="main_sgbs"><a href="/products/content/equities/sgbs/sgbs.htm">Sovereign Gold Bond Scheme</a></li></ul></li><li id="main_Derivative"><span>Derivatives</span><ul class="submenu"><li id="main_eqder"><a href="/products/content/derivatives/equities/fo.htm">Equity Derivatives</a></li><li id="main_comder"><a href="/products/content/derivatives/commodity/commodities.htm">Commodity Derivatives</a></li><li id="main_currdev"><a href="/products/content/derivatives/currency/cd.htm">Currency Derivatives</a></li><li id="main_irf"><a href="/products/content/derivatives/irf/irf.htm">Interest Rate Futures</a></li></ul></li><li id="main_Debt"><span>Debt</span><ul class="submenu"><li id="main_wdm"><a href="/products/content/debt/wdm/ndm.htm">Debt Segment</a></li><li id="main_cb"><a href="/products/content/debt/corp_bonds/cbm.htm">Corporate Bonds</a></li><li id="main_ebp"><a href="/products/content/debt/ebp/ebp.htm">NSE EBP</a></li><li id="main_ncbp_final"><a href="/products/content/debt/ncbp/about_ncbp.htm">Non-Competitive Bidding in GSec, SDL and T-Bills</a></li><li id="main_tprepo"><a href="/products/content/debt/tripartyrepo/about_tripartyrepo.htm">Tri-Party Repo</a></li></ul></li><li id="main_Trackers"><span>Trackers</span><ul class="submenu"><li id="main_banknifty"><a href="/live_market/dynaContent/live_watch/bn_home_page.htm">Bank Nifty</a></li></ul></li></ul></div></li><li id="main_corporate"><a href="#">Corporates</a><div class="innerNav" id="navcorporate" style="display:none;clear:both"><ul><li id="main_cinfos_equity"><span>Listing on NSE</span><ul class="submenu"><li id="main_c_bl"><a href="/corporates/content/listing_benefits.htm">Benefits of Listing</a></li><li id="main_c_cm"><a href="/corporates/content/capital_market.htm">Listing on Capital Market(CM)</a></li><li id="main_c_fil"><a href="/corporates/content/further_issues.htm">Further Issues Listing</a></li><li id="main_c_mf"><a href="/corporates/content/mutualfunds.htm">Listing of Mutual Fund</a></li><li id="main_c_wdm"><a href="/corporates/content/debt_pvt_plcment.htm">Listing on Debt Segment</a></li><li id="main_c_invit"><a href="/corporates/content/invit.htm">Listing of InvIT</a></li><li id="main_c_reits_new"><a href="/corporates/content/reits.htm">Listing of REITs</a></li></ul></li><li id="main_c_si"><span>Securities Information</span><ul class="submenu"><li id="main_c_secinfo"><a href="/corporates/content/securities_info.htm">Securities Information</a></li><li id="main_c_ls"><a href="/corporates/corporateHome.html?id=equity" target="_blank">Listed Securities</a></li><li id="main_"><a href="/corporates/corporateHome.html?id=mfCorpAnnouncements" target="_blank">Mutual Funds / ETFs</a></li><li id="main_c_rl"><a href="/corporates/corporateHome.html?id=newListing" target="_blank">Recent Listings</a></li><li id="main_c_fi"><a href="/corporates/corporateHome.html?id=forthcomingListing" target="_blank">Forthcoming Listings</a></li><li id="main_c_iod"><a href="/corporates/corporateHome.html?id=recentissues" target="_blank">Issuer Offer documents</a></li><li id="main_cinfos_DL"><a href="/content/equities/suspension.xls" target="_blank">Listed companies suspended from trading</a></li><li id="main_cinfos_otcompinfo"><a href="/corporates/corporateHome.html?id=companyDetails" target="_blank">Company Contact Details</a></li><li id="main_corp_FIL"><a href="/corporates/content/listed_daily_fi_limits.htm">Foreign Investment limits in Listed Companies</a></li></ul></li><li id="main_cinfos_debt"><span>Corporate Information</span><ul class="submenu"><li id="main_cinfos_dbcorpann"><a href="/corporates/corporateHome.html?id=allAnnouncements" target="_blank">Announcements</a></li><li id="main_cinfos_eqbm"><a href="/corporates/corporateHome.html?id=eqBoardMeetings" target="_blank">Board Meetings</a></li><li id="main_cinfos_eqrc"><a href="/corporates/corporateHome.html?id=eqResultCalendar" target="_blank">Result Calendar</a></li><li id="main_cinfos_dbcorpact"><a href="/corporates/corporateHome.html?id=eqCorpActions" target="_blank">Corporate Actions</a></li><li id="main_cinfos_dbfinres"><a href="/corporates/corporateHome.html?id=eqFinResults" target="_blank">Financial Results</a></li><li id="main_cinfos_dbfinres"><a href="/corporates/corporateHome.html?id=shldinfo_cg" target="_blank">Corporate Governance</a></li><li id="main_cinfos_si"><a href="/corporates/corporateHome.html?id=spatterns" target="_blank">Shareholding Pattern</a></li><li id="main_cinfos_sc"><a href="/corporates/corporateHome.html?id=secretarialC" target="_blank">Secretarial Compliance Report</a></li><li id="main_cinfos_vr"><a href="/corporates/corporateHome.html?id=votingR" target="_blank">Voting Results</a></li><li id="main_cinfos_pd"><a href="/corporates/corporateHome.html?id=pledgeSummary" target="_blank">Pledge Data</a></li><li id="main_cinfos_sa"><a href="/corporates/corporateHome.html?id=schemeofarrangement" target="_blank">Scheme of Arrangement</a></li><li id="main_cinfos_dbbuybac"><a href="/corporates/corporateHome.html?id=eqCorpAnnouncementsNav" target="_blank">Buyback / Redemption</a></li><li id="main_cinfos_DL"><a href="/corporates/content/public_notice.htm" target="_blank">Public Notice - Compulsory Delisting</a></li></ul></li><li id="main_cinfos_other"><span>Other Information</span><ul class="submenu"><li id="main_c_ci"><a href="/corporates/content/compliance_info.htm">Compliance Information</a></li><li id="main_c_circ"><a href="/corporates/content/eq_listcompanies.htm">Circular issued to listed companies</a></li><li id="main_othe_circ_debt"><a href="/corporates/content/debt_list_agreement.htm">Circulars related to debt securities</a></li><li id="main_othe_chk"><a href="/corporates/content/checklist.htm">Checklist</a></li><li id="main_othe_com"><a href="/corporates/content/eq_compcalendar.htm">Compliance Calendar</a></li><li id="main_othe_reports"><a href="/corporates/content/eq_research_reports_listed.htm">NSE - IPFT Sponsored Company Reports</a></li><li id="main_othe_corp_rep"><a href="/corporates/content/corp_research_reprots.htm">Fact sheet of Companies Trading below Par Value</a></li><li id="main_othe_rep_crisil"><a href="/education/content/reports/eq_research_reports.htm">Crisil Research Reports</a></li><li id="main_other_brr_final"><a href="/education/content/reports/brr_report.htm">Business Responsibility Report</a></li><li id="main_other_xbrl_final"><a href="/corporates/content/corp_xbrl_filing.htm">XBRL Filing Information</a></li><li id="main_nda_info"><a href="/supra_global/content/dotex/nse_infobase.htm">NSE Infobase</a></li></ul></li></ul></div></li><li id="main_member"><a href="#">Membership</a><div class="innerNav" id="navmember" style="display:none;clear:both"><ul><li id="main_md"><span>Member Help</span><ul class="submenu"><li id="main_md_broker"><a href="/membership/dynaContent/find_a_broker.htm">Find a Member</a></li><li id="main_mh_cl"><a href="/membership/content/mem_contact.htm">Contact Us</a></li></ul></li><li id="main_newm"><span>New Membership</span><ul class="submenu"><li id="main_nm_cm"><a href="/membership/content/cat_of_mem.htm">Categories of membership</a></li><li id="main_nm_ec"><a href="/membership/content/eligibility_ctra.htm">Eligibility Criteria</a></li><li id="main_nm_fdnr"><a href="/membership/content/fees_depst_n_net_req.htm">Fees, Deposits &amp; Networth Requirements</a></li><li id="main_nm_ap"><a href="/membership/content/admission_proc.htm">Admission Process &amp; Documents</a></li><li id="main_nm_enable"><a href="/membership/content/FAQsfornewmembershiponNSEwebsite.pdf" target="_blank">FAQ on New Membership Registration</a></li><li id="main_nm_enable"><a href="/membership/content/enablement.htm">Enablement</a></li></ul></li><li id="main_eximem"><span>Existing Membership</span><ul class="submenu"><li id="main_ap"><a href="/membership/content/authorised_person.htm">Authorised Persons</a></li><li id="main_nm_conn"><a href="/membership/content/connectivity.htm">Connectivity</a></li><li id="main_nm_userid"><a href="/membership/content/user_id_ctcl_id.htm">User ID / CTCL ID</a></li><li id="main_contmem_ec"><a href="/membership/content/complinc_trading_mem.htm">Compliance for Trading Members</a></li><li id="main_memcyber"><a href="/membership/content/mem_cyber_security.htm">Cyber Security</a></li><li id="main_formats"><a href="/membership/content/formats.htm">Formats</a></li></ul></li></ul></div></li><li id="main_invest"><a href="#">Domestic Investors</a><div class="innerNav" id="navinvest" style="display:none;clear:both"><ul><li id="main_inv"><span>Domestic Investors</span><ul class="submenu"><li id="main_inv_home"><a href="/invest/content/investor_home.htm">Investor Home</a></li><li id="main_inv_vt"><a href="/registration/tv/trades/newStructure/TVLogin.jsp">Verify your Trades</a></li><li id="main_inv_faq"><a href="/invest/content/TV_faqs.pdf" target="_blank">FAQs on Trade Alerts Facility</a></li><li id="main_inv_app"><a href="/invest/content/mobile_app.htm">NSE Mobile Application</a></li><li id="main_inv_feedform"><a href="/invest/dynaContent/feedback_form.jsp">Feedback Form</a></li><li id="main_inv_mynse"><a href="/portfolioTracker/content/mynse/nseUserlogin.htm">My NSE</a></li><li id="main_inv_sgbs"><a href="/products/dynaContent/equities/sgbs/sgbs_bid_query.jsp">Verify SGBs Bids</a></li><li id="main_dominvest"><a href="/invest/content/dissemination_board.htm">Dissemination Board</a></li></ul></li><li id="main_iedu"><span>Investor Education</span><ul class="submenu"><li id="main_iedu_iro"><a href="/invest/content/inve_rights_ob.htm">Investor Rights &amp; Obligations</a></li><li id="main_iedu_wtwof"><a href="/invest/content/what_watch_out_for.htm">Investor Alerts</a></li><li id="main_iedu_isc"><a href="/invest/content/investor_serv_cell.htm">NSE Investor Services Cell</a></li><li id="main_iedu_ip"><a href="/invest/content/investor_program.htm">Investor Programs</a></li><li id="main_othe_reports"><a href="/corporates/content/eq_research_reports_listed.htm">NSE - IPFT Sponsored Company Reports</a></li><li id="main_othe_corp_rep"><a href="/corporates/content/corp_research_reprots.htm">Fact sheet of Companies Trading below Par Value</a></li><li id="main_other_report"><a href="/education/content/reports/eq_research_reports.htm">Crisil Reports - Sponsored by NSE IPFT</a></li><li id="main_irgress"><a href="/invest/content/investor_RGESS.htm">Rajiv Gandhi Equity Savings Scheme</a></li></ul></li><li id="main_comp"><span>Complaints</span><ul class="submenu"><li id="main_comp_exc"><a href="/invest/content/complaints_exchange.htm">Complaints taken up at the Exchange</a></li><li id="main_comp_nexc"><a href="/invest/content/complaints_not_exc.htm">Complaints not taken up at the Exchange</a></li><li id="main_comp_regecomp"><a href="https://investorhelpline.nseindia.com/NICEPLUS/" target="_blank">Register an E-complaint</a></li><li id="main_comp_regcomoff"><a href="/invest/content/reg_complaint_offline.htm">Register a complaint offline</a></li><li id="main_igc_panel"><a href="/invest/content/IG_res_panel.htm">Investor Grievance Resolution Panel</a></li><li id="main_comp_as"><a href="/invest/content/arbitration_status.htm">Complaint / Arbitration Status</a></li></ul></li><li id="main_arbit"><span>Arbitration</span><ul class="submenu"><li id="main_arbit_aa"><a href="/invest/content/about_arbitration.htm">About Arbitration</a></li><li id="main_arbit_aawa"><a href="/invest/dynaContent/arbitration_award.jsp?requestPage=main&amp;qryFlag=yes">Arbitration Awards</a></li><li id="main_arbit_aahr"><a href="/invest/dynaContent/arbitration_hearings.jsp?requestPage=main&amp;qryFlag=yes">Arbitration Hearing </a></li><li id="main_arbit_dsap"><a href="/invest/content/arbitration_disposal.htm">Disposal of Arbitration proceedings</a></li></ul></li><li id="main_default"><span>Defaulters</span><ul class="submenu"><li id="main_default_dem"><a href="/invest/content/defaulter_expld_memb.htm">Defaulter / Expelled Members</a></li><li id="main_default_rcadem"><a href="/invest/content/reg_claim_agnst_mmbr.htm">Details to be provided for lodging claims</a></li><li id="main_default_dc"><a href="/invest/content/defaulters_committee.htm">Defaulter's Section</a></li><li id="main_default_pnd"><a href="/invest/content/public_notice_def.htm">Public Notice</a></li></ul></li><li id="main_default"><span>Regulatory</span><ul class="submenu"><li id="main_inv_ra"><a href="/invest/content/regulatory_actions.htm">Regulatory Actions</a></li><li id="main_sur_ac"><a href="/invest/content/equities_surv_actions.htm">Surveillance Actions</a></li><li id="main_defaulting"><a href="/invest/content/Defaulting_Clients.htm">Defaulting clients</a></li></ul></li></ul></div></li><li id="main_int_invest"><a href="#">International Investors</a><div class="innerNav" id="navint_invest" style="display:none;clear:both"><ul><li id="main_iind"><span>Investing</span><ul class="submenu"><li id="main_iind_gs"><a href="/int_invest/content/getting_started.htm">Getting Started</a></li><li id="main_iind_rf"><a href="/int_invest/content/regulatory_framework.htm">Regulatory Framework</a></li><li id="main_iind_oa"><a href="/int_invest/content/opening_account.htm">Opening an Account</a></li><li id="main_inf_hcn"><a href="/int_invest/content/how_connect_nse.htm">How to connect to NSE</a></li><li id="main_iind_ts"><a href="/int_invest/content/iitrading_segments.htm">Trading on NSE</a></li><li id="main_ti_cs"><a href="/int_invest/content/clearing_settlement.htm">Clearing and Settlement</a></li><li id="main_ti_rm"><a href="/int_invest/content/risk_management.htm">Risk Management</a></li><li id="main_inf_tax"><a href="/int_invest/content/taxation.htm">Costs and Taxation</a></li><li id="main_ii_cu"><a href="/int_invest/content/int_contact1.htm">Contact us</a></li></ul></li></ul></div></li><li id="main_tech"><a href="#">Technology</a><div class="innerNav" id="navtech" style="display:none;clear:both"><ul><li id="main_over"><span>Overview</span><ul class="submenu"><li id="main_tech_intro"><a href="/technology/content/tech_intro.htm">Introduction</a></li><li id="main_over_ns"><a href="/technology/content/nse_schematic.htm">NSE Schematic</a></li><li id="main_tech_inno"><a href="/technology/content/trading_protocols.htm">Trading Protocol</a></li><li id="main_inno_sandbox"><a href="/technology/content/inno_sandbox.htm">Innovation Sandbox</a></li></ul></li><li id="main_hst"><span>Trading Member</span><ul class="submenu"><li id="main_hst_nnfe"><a href="/technology/content/non_neat_front_end.htm">Non-Neat Front End</a></li><li id="main_hst_ctcl"><a href="/technology/content/trad_tech_ctcl.htm">Computer to Computer link software (CTCL)</a></li><li id="main_hst_ibt"><a href="/technology/content/trad_tech_ibt.htm">Internet based Trading (IBT)</a></li><li id="main_hst_dma"><a href="/technology/content/trad_tech_dma.htm">Direct Market Access (DMA)</a></li><li id="main_hst_dalgo"><a href="/technology/content/trad_tech_algo.htm">Decision Support Tools / Algorithms  trading</a></li><li id="main_hst_stwt"><a href="/technology/content/trad_tech_stwt.htm">Security Trading through Wireless Technology (STWT)</a></li><li id="main_hst_sor"><a href="/technology/content/trad_tech_sor.htm">Smart Order Routing (SOR)</a></li><li id="main_hst_tmf"><a href="/technology/content/trad_tech_tmf.htm">Test Market Facility</a></li><li id="main_hst_compl"><a href="/technology/content/trad_tech_compliance.htm">Compliance</a></li></ul></li><li id="main_isv"><span>Software Vendor</span><ul class="submenu"><li id="main_isv_ev"><a href="/technology/content/empanelled_vendors.htm">Empanelled Vendors</a></li><li id="main_isv_asps"><a href="/technology/content/register_asps.htm">Registration of Foreign Independent Software Vendors (ISVs)</a></li></ul></li><li id="main_dp"><span>Data Products</span><ul class="submenu"><li id="main_dp_iv"><a href="/supra_global/content/dotex/data_products.htm">Information Vending</a></li></ul></li></ul></div></li><li id="main_educate"><a href="#">Education</a><div class="innerNav" id="naveducate" style="display:none;clear:both"><ul><li id="main_oep"><span>Our Education Program</span><ul class="submenu"><li id="main_oep_atp"><a href="/education/content/about_ncfm.htm">About NCFM</a></li><li id="main_oep_nfb"><a href="https://www.ncfm-india.com/ORE/WBT/OREWBTloginPage.jsp" target="_blank">NSE FinBasics</a></li><li id="main_oep_ua"><a href="/education/content/update_announce.htm">Updates &amp; Announcements</a></li><li id="main_edu_NRS"><a href="/education/content/nse_rapid_series.htm">NSE Rapid Series</a></li><li id="main_cert_mkclflp"><a href="/education/content/mkcl_fin_prg.htm">Financial Literacy Program</a></li><li id="main_cert_vp"><a href="/education/content/visit_nse_prg.htm">Visit to NSE Program</a></li><li id="main_cert_rvf"><a href="https://www.ncfm-india.com/ORE/OREregisterFacultySME.jsp">Register as Visiting Faculty/Subject Matter Expert</a></li><li id="main_oep_mdp"><a href="/education/content/nse_mdpprg.htm">Management Development Program</a></li><li id="main_con_us"><a href="/education/content/contact_us.htm">Contact Us</a></li></ul></li><li id="main_cert"><span>Certifications</span><ul class="submenu"><li id="main_cert_rt"><a href="https://www.ncfm-india.com/ORE/OREloginPage.jsp" target="_blank">NSE FinTalent/ NCFM Login</a></li><li id="main_cert_ncert"><a href="/education/content/nse_certification.htm">NCFM</a></li><li id="main_oep_nccmp"><a href="/education/content/module_nccmp.htm">Short Term Courses</a></li><li id="main_oep_oc"><a href="/education/content/online_courses.htm">Online Live Courses</a></li><li id="main_or_oc"><a href="/education/content/online_recorded_courses.htm">Online-Recorded Courses</a></li><li id="main_or_oi"><a href="/education/content/Online_Interactive_Courses.htm">Online Interactive Courses</a></li><li id="main_nism_cpe"><a href="/education/content/nism_cpe.htm">Continuing Professional Education (CPE)</a></li><li id="main_edu_proc"><a href="/education/content/edu_procedure.htm">NCFM Procedures</a></li><li id="main_cert_pft"><a href="/education/content/prepare_testing.htm">Prepare for Testing</a></li><li id="main_cert_nism"><a href="/education/content/module_nism.htm">NISM Certifications</a></li></ul></li><li id="main_cert_pc"><span>Current Program</span><ul class="submenu"><li id="main_join_cert"><a href="/education/content/joint_cert.htm">Joint Certification</a></li><li id="main_bba_mba_pgm"><a href="https://www.ncfm-india.com/ORE/BBA/">BBA/MBA Programs</a></li><li id="main_pgp_others"><a href="/education/content/nse_pgp_others.htm">Post Graduate Programs</a></li><li id="main_or_oi"><a href="https://www.ncfm-india.com/ORE/NKHAI/">NSE - Knowledge Hub</a></li><li id="main_or_oi"><a href="https://www.ncfm-india.com/ORE/NSmartTS/">NSE - Smart Trading Simulator</a></li></ul></li></ul></div></li><li id="main_research" class="last"><a href="#">Research</a><div class="innerNav" id="navresearch" style="display:none;clear:both"><ul><li id="main_res_cg"><span>Corporate Governance</span><ul class="submenu"><li id="main_NSE_IGIDR"><a href="/research/content/NSE_IGIDR.htm">NSE - IGIDR</a></li><li id="main_nse_CECG"><a href="/research/content/res_NSE_CECG.htm">NSE-CECG</a></li><li id="main_cert_iimbcg"><a href="/research/content/nse_iimb_cg.htm">NSE-IIMB Initiative</a></li><li id="main_cg_ts"><a href="/research/content/research_cg_transcripts.htm">Panel Discussions / Seminars</a></li></ul></li><li id="main_hst"><span>Financial Markets</span><ul class="submenu"><li id="main_res_nyuss"><a href="/research/content/research_NSE_NYU.htm">NSE - NYU Stern School of Business Initiative</a></li><li id="main_cert_nwp"><a href="/research/content/nse_working_papers.htm">NSE Working Papers</a></li><li id="main_cert_rps"><a href="/research/content/research_projects_students.htm">Student Research Projects</a></li><li id="main_fm_ts"><a href="/research/content/research_fm_transcripts.htm">Panel Discussions / Seminars</a></li><li id="main_fm_awards"><a href="/research/content/fm_awards.htm">NSE Awards for Financial Market Research</a></li><li id="main_cert_ri"><a href="/research/content/research_initiative.htm">NSE Research Initiative (2000-2010)</a></li><li id="main_res_lecture"><a href="/research/content/CMLP_lecture_series.htm">NSE Lecture Series</a></li></ul></li><li id="main_finin"><span>Financial Inclusion</span><ul class="submenu"><li id="main_res_ife"><a href="/research/content/res_IFE.htm">NSE-IFF Initiative</a></li><li id="main_res_ifmr"><a href="/research/content/res_IFMR.htm">NSE-IFMR Initiative</a></li></ul></li><li id="main_pub"><span>Publications</span><ul class="submenu"><li id="main_pub_wp"><a href="/research/content/res_pub_papers.htm">Working Paper Series</a></li><li id="main_cert_pub_cg"><a href="/research/content/nse_cg_es_main.htm">Corporate Governance : An Emerging Scenario</a></li><li id="main_cert_pub_ml"><a href="/research/content/nse_memorial_lec.htm">Dr. R.H.Patil Memorial Lecture</a></li><li id="main_cert_lec"><a href="/research/content/nse_Financial_Economics_lec.htm">NSE-IEA Lecture Series on Financial Economics</a></li><li id="main_cert_nsefact"><a href="/research/dynaContent/nse_factbook.htm">NSE Fact Book</a></li><li id="main_cert_ism_new"><a href="/research/dynaContent/ismr.htm">Indian Securities Market Review (ISMR)</a></li></ul></li></ul></div></li></ul><div class="alert" style=" padding-top: 0px"><h2 style="color:#800000"> <marquee scrollamount="3" style="background: #F5F098;width:975px;">The old website will not be available after August 2020. Please refer  <a href="https://archives.nseindia.com/content/circulars/WEB45032.pdf" target="_blank"> Circular 45032</a> </marquee> </h2></div></div>
+		<!--Main Menu End--> 
+	</div>
+	<div class="clear"></div>
+	<!--Wrapper End--> 
+	<!-- Content Big Start -->
+	<div class="content_big">
+		<div class="black_overlay" style="display:none"></div>
+		<div id="wrapper_btm"> 
+			<!-- Main Content Start -->
+			<div class="main_content">
+		        <div id="breadcrumb"><ul class="breadcrumb"><li><a href="/index_nse.htm">Home</a></li><li id="bread_prd"><a href="/products/content/equities/equities/equities.htm">Products</a></li><li id="bread_Derivative"><a href="javascript:void(0);">Derivatives</a></li><li id="bread_eqder"><a href="/products/content/derivatives/equities/fo.htm">Equity Derivatives</a></li><li id="bread_eqder_pi"><a href="javascript:void(0);">About Equity Derivatives</a></li><li id="bread_eqder_contract_info"><a href="/products/content/derivatives/equities/contract_info.htm">Contract Information</a></li><li>List of Underlyings and Information</li></ul></div><!-- Changed by indigo as on 15/02/2011 -->
+				<div class="lhs_nav" id="subMenu"><ul class="firstNav"><li id="lhs_prd"><ul class="secondNav"><li id="lhs_Equity"><h3>Equities</h3><ul class="thirdNav" style="display: none;"><li id="lhs_equitie"><a href="/products/content/equities/equities/equities.htm">Equities</a><ul class="fourthNav" style="display: none;"><li id="lhs_eq_cmr"><a href="javascript:void(0);">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_eq_tr"><a href="/products/content/equities/equities/homepage_eq.htm">Daily Reports</a></li><li id="lhs_eq_mr"><a href="/products/content/equities/equities/homepage_eq_monthly.htm">Monthly Reports</a></li><li id="lhs_eq_fidi"><a href="/products/content/equities/equities/fii_dii_market_today.htm">FII/FPI &amp; DII trading activity on NSE, BSE and MSEI</a></li></ul></li><li id="lhs_eq_hist_data"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_eq_bbs"><a href="/products/content/equities/equities/bulk.htm">Bulk Deals/ Block Deals/ Short Selling Archives</a></li><li id="lhs_eq_spva"><a href="/products/content/equities/equities/eq_security.htm">Security-wise Price Volume  Archives</a></li><li id="lhs_eq_shlv"><a href="/products/dynaContent/equities/equities/histHighLowSearch.htm">Security-wise High/Low Value</a></li><li id="lhs_eq_admr"><a href="/products/content/equities/equities/archieve_eq.htm">Archives of Daily / Monthly  Reports</a></li><li id="lhs_eq_mas"><a href="/products/dynaContent/equities/equities/mostactivatemonthly.jsp?param=Month">Most Active Securities</a></li><li id="lhs_eq_bg"><a href="/products/content/equities/equities/historical_equity_businessgrowth.htm">Business Growth</a></li><li id="lhs_eq_pstsm"><a href="/products/content/equities/equities/historical_topbrokersyearwise.htm">Percentage Share of Top 'N' Securities / Members</a></li><li id="lhs_eq_mot"><a href="/products/content/equities/equities/mode_of_trading.htm">Mode of Trading</a></li><li id="lhs_eq_ad"><a href="/products/content/equities/equities/historical_advdeclines.htm">Advances &amp; Declines</a></li><li id="lhs_eq_mss"><a href="/products/content/equities/equities/eq_monthly_statistics.htm">Monthly Settlement Statistics</a></li><li id="lhs_eq_it"><a href="/products/dynaContent/common/Internet_trd_stats.jsp?setttype=Equities">Internet Trading</a></li><li id="lhs_rdm_hd"><a href="/products/content/debt/rdm/historical_rdm.htm">RDM Historical Data</a><ul class="sixthNav" style="display: none;"><li id="lhs_rdm_pvdpdps"><a href="/products/content/debt/rdm/historical_rdm.htm">Price, volume, deliverable positions data per security</a></li><li id="lhs_rdm_tstbg"><a href="/products/content/debt/rdm/historical_rdm_businessgrowth.htm">Trade Statistics / Turnover / Business Growth</a></li><li id="lhs_rdm_adr"><a href="/products/content/debt/rdm/archives_rdm.htm">Archives of Daily Reports</a></li></ul></li></ul></li><li id="lhs_eq_pi"><a href="https://www.nseindia.com/products-services/about-equity-market">About Equities</a><ul class="fifthNav" style="display: none;"><li id="lhs_eq_art"><a href="https://www.nseindia.com/products-services/about-equity-market">About Equities</a></li><li id="lhs_eq_trade"><a href="https://www.nseindia.com/products-services/equity-market-trading">Trading</a><ul class="sixthNav" style="display: none;"><li id="lhs_eq_mth"><a href="https://www.nseindia.com/products-services/equity-market-timings-holidays">Market Timings &amp; Holidays</a></li><li id="lhs_eq_ms"><a href="https://www.nseindia.com/products-services/equity-market-segment">Market Segments</a></li><li id="lhs_eq_sat"><a href="https://www.nseindia.com/products-services/equity-market-securities-available-for-trading">Securities Available for Trading</a></li><li id="lhs_eq_list"><a href="https://www.nseindia.com/market-data/new-stock-exchange-listings-today">Listings Today</a></li><li id="lhs_eq_cb"><a href="https://www.nseindia.com/products-services/equity-market-circuit-breakers">Circuit Breakers</a></li><li id="lhs_eq_pb"><a href="https://www.nseindia.com/products-services/equity-market-price-bands">Price Bands</a></li><li id="lhs_eq_ctcl"><a href="https://www.nseindia.com/products-services/equity-market-computer-to-computer-link-trading-ctcl">Computer to Computer Link (CTCL)</a></li><li id="lhs_eq_it"><a href="https://www.nseindia.com/products-services/equity-market-internet-trading">Internet Trading</a></li><li id="lhs_eq_ts"><a href="https://www.nseindia.com/products-services/equity-market-trading-system">Trading System</a></li><li id="lhs_eq_tw"><a href="https://www.nseindia.com/products-services/equity-market-trader-workstation">Trader Workstation</a></li></ul></li><li id="lhs_eq_rm"><a href="https://www.nseindia.com/products-services/equity-market-risk-management">Risk Management</a><ul class="sixthNav" style="display: none;"><li id="lhs_eq_marg"><a href="https://www.nseindia.com/products-services/equity-market-margins">Margins</a></li><li id="lhs_eq_marg_ins"><a href="https://www.nseindia.com/products-services/equity-market-margin-institutional-deals">Margins for institutional deals</a></li><li id="lhs_eq_vol_close"><a href="https://www.nseindia.com/products-services/equity-market-voluntary-close-out">Voluntary Close out Facility</a></li><li id="lhs_eq_marg_s"><a href="/products/content/equities/equities/margin_shortfall.htm">Margin Shortfall</a></li><li id="lhs_eq_crs_marg"><a href="/products/content/equities/equities/cross_margin.htm">Cross Margining</a></li><li id="lhs_eq_csim"><a href="https://www.nseindia.com/products-services/equity-market-categorisation-stocks-imposition-of-margins">Categorisation of stocks for imposition of margins</a></li><li id="lhs_eq_la"><a href="https://www.nseindia.com/products-services/equity-market-liquid-assets">Liquid Assets</a></li><li id="lhs_eq_pay"><a href="https://www.nseindia.com/products-services/equity-market-pay-ins">Pay-ins </a></li><li id="lhs_eq_fcff"><a href="https://www.nseindia.com/products-services/equity-market-format-collaterals">Formats for Collaterals</a></li></ul></li><li id="lhs_eq_cs"><a href="https://www.nseindia.com/products-services/equity-market-clearing-settlement">Clearing &amp; Settlement</a><ul class="sixthNav" style="display: none;"><li id="lhs_eq_sc"><a href="https://www.nseindia.com/products-services/equity-market-settlement-cycle">Settlement Cycle</a></li><li id="lhs_eq_es"><a href="https://www.nseindia.com/products-services/equity-market-shortages-handling">Shortages Handling</a></li><li id="lhs_eq_ss"><a href="https://www.nseindia.com/products-services/equity-market-securities-settlement">Securities Settlement</a></li><li id="lhs_eq_fs"><a href="https://www.nseindia.com/products-services/equity-market-funds-settlement">Funds Settlement </a></li><li id="lhs_eq_drd"><a href="https://www.nseindia.com/products-services/equity-market-data-reports-download">Data and Reports Download</a></li><li id="lhs_eq_pen"><a href="https://www.nseindia.com/products-services/equity-market-penalties">Penalties</a></li><li id="lhs_eq_er"><a href="https://www.nseindia.com/products-services/equity-market-electronic-reporting">Electronic Reporting</a></li><li id="lhs_eq_nd"><a href="https://www.nseindia.com/products-services/equity-market-non-cleared-deals">Non-cleared (Trade for Trade) Deals</a></li><li id="lhs_eq_iidbd"><a href="https://www.nseindia.com/products-services/equity-market-inter-institutional-block-deals">Inter-Institutional Deals and Block Deals</a></li></ul></li></ul></li></ul></li><li id="lhs_ind"><a href="/products/content/equities/indices/indices.htm">Indices</a><ul class="fourthNav" style="display: none;"><li id="lhs_ind_cmr"><a href="/products/content/equities/indices/homepage_indices.htm">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_ind_tr"><a href="/products/content/equities/indices/homepage_indices.htm">Daily Reports</a></li><li id="lhs_ind_mr"><a href="/products/content/equities/indices/homepage_indices_monthly.htm">Monthly Reports</a></li></ul></li><li id="lhs_ind_hd"><a href="#">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_ind_hid"><a href="/products/content/equities/indices/historical_index_data.htm">Historical Index Data</a></li><li id="lhs_ind_hid_vix"><a href="/products/content/equities/indices/historical_vix.htm">Historical India VIX Data</a></li><li id="lhs_ind_admr"><a href="/products/content/equities/indices/archieve_indices.htm">Archives of Daily / Monthly Reports</a></li><li id="lhs_ind_yeild"><a href="/products/content/equities/indices/historical_pepb.htm">P/E, P/B &amp; Div. Yield values</a></li><li id="lhs_ind_triv"><a href="/products/content/equities/indices/historical_total_return.htm">Total Returns Index Values</a></li></ul></li><li id="lhs_ind_pi"><a href="https://www.nseindia.com/products-services/about-indices">About Indices</a><ul class="fifthNav" style="display: none;"><li id="lhs_ind_ai"><a href="https://www.nseindia.com/products-services/about-indices">About Indices</a></li><li id="lhs_ind_bi"><a href="https://www.nseindia.com/products-services/indices-broad-market">Broad Market Indices</a><ul class="sixthNav" style="display: none;"><li id="lhs_ind_snp_cnx_nifty"><a href="https://www.nseindia.com/products-services/indices-nifty50-index">Nifty 50 Index</a></li><li id="lhs_ind_cnx_nifty_jr"><a href="https://www.nseindia.com/products-services/indices-niftynext50-index">Nifty Next 50 Index</a></li><li id="lhs_ind_cnx_100"><a href="https://www.nseindia.com/products-services/indices-nifty100-index">Nifty 100 Index</a></li><li id="lhs_ind_cnx_200"><a href="https://www.nseindia.com/products-services/indices-nifty200-index">Nifty 200 Index</a></li><li id="lhs_ind_snp_cnx_500"><a href="https://www.nseindia.com/products-services/indices-nifty500-index">Nifty 500 Index</a></li><li id="lhs_ind_nifty_midcap_150"><a href="https://www.nseindia.com/products-services/indices-niftymidcap150-index">Nifty Midcap 150 Index</a></li><li id="lhs_ind_nifty_midcap_50"><a href="https://www.nseindia.com/products-services/indices-niftymidcap50-index">Nifty Midcap 50 Index</a></li><li id="lhs_ind_cnx_midcap"><a href="https://www.nseindia.com/products-services/indices-niftymidcap100-index">Nifty Midcap 100 Index</a></li><li id="lhs_ind_nifty_smallcap_250"><a href="https://www.nseindia.com/products-services/indices-niftysmallcap250-index">Nifty Smallcap 250 Index</a></li><li id="lhs_ind_nifty_small_50"><a href="https://www.nseindia.com/products-services/indices-niftysmallcap50-index">Nifty Smallcap 50 Index</a></li><li id="lhs_ind_cnx_smallcap"><a href="https://www.nseindia.com/products-services/indices-niftysmallcap100-index">Nifty Smallcap 100 Index</a></li><li id="lhs_ind_nifty_lm_250"><a href="/products/content/equities/indices/nifty_LargeMidcap_250.htm">NIFTY LargeMidcap 250 Index</a></li><li id="lhs_ind_nifty_ms_400"><a href="https://www.nseindia.com/products-services/indices-niftymidsmallcap400-index">Nifty MidSmallcap 400 Index</a></li><li id="lhs_ind_india_vix"><a href="https://www.nseindia.com/products-services/indices-indiavix-index">India Vix Index</a></li></ul></li><li id="lhs_ind_si"><a href="https://www.nseindia.com/products-services/indices-sectoral">Sectoral Indices</a></li><li id="lhs_ind_ti"><a href="https://www.nseindia.com/products-services/indices-thematic">Thematic Indices</a></li><li id="lhs_ind_strat"><a href="https://www.nseindia.com/products-services/indices-strategy">Strategy Indices</a></li><li id="lhs_ind_ci"><a href="https://www.nseindia.com/products-services/indices-customised">Customised Indices</a></li><li id="lhs_ind_fii"><a href="https://www.nseindia.com/products-services/indices-fixed-income">Fixed income indices</a><ul class="sixthNav" style="display: none;"><li id="lhs_ind_dbis"><a href="#">Target Maturity Index Series</a></li><li id="lhs_ind_dbis"><a href="/products/content/equities/indices/FII_dbis.htm">Duration based index series</a></li><li id="lhs_ind_mmis"><a href="/products/content/equities/indices/FII_mmis.htm">Money Market Index Series</a></li><li id="lhs_ind_mbis"><a href="/products/content/equities/indices/FII_mbis.htm">Maturity Based Index Series</a></li></ul></li><li id="lhs_ind_blended"><a href="/products/content/equities/indices/blended_indices.htm">Blended Indices</a></li><li id="lhs_ind_ic"><a href="https://www.nseindia.com/products-services/indices-index-concepts">Index Concepts</a><ul class="sixthNav" style="display: none;"><li id="lhs_ind_impact"><a href="https://www.nseindia.com/products-services/indices-impact-cost">Impact Cost</a></li><li id="lhs_ind_beta"><a href="https://www.nseindia.com/products-services/indices-beta">Beta</a></li><li id="lhs_ind_tri"><a href="https://www.nseindia.com/products-services/indices-total-returns-index">Total Returns Index</a></li><li id="lhs_ind_PER"><a href="/products/content/equities/indices/price_ratio.htm">Price Earnings Ratio</a></li><li id="lhs_ind_PBV"><a href="/products/content/equities/indices/price_book_value.htm">Price to Book value</a></li><li id="lhs_ind_DY"><a href="/products/content/equities/indices/Dividend_Yield.htm">Dividend Yield %</a></li><li id="lhs_ind_iwf"><a href="https://www.nseindia.com/products-services/indices-investible-weight-factors">Investible Weight Factors (IWFs)</a></li></ul></li><li id="lhs_ind_ind_fund"><a href="https://www.nseindia.com/products-services/indices-index-funds">Index Funds</a></li><li id="lhs_ind_faqi"><a href="https://www.nseindia.com/products-services/indices-faqs">FAQs about Indices</a></li></ul></li><li id="lhs_ind_comr"><a href="/products/content/equities/indices/indices_comparison.htm">Comparison Reports</a></li></ul></li><li id="lhs_mut"><a href="/products/content/equities/mutual_funds/mutual_funds.htm">Mutual Funds</a><ul class="fourthNav" style="display: none;"><li id="lhs_mut_cmr"><a href="javascript:void(0);">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_mut_lat_nav"><a href="http://nseindia.moneycontrol.com/mutualfundindia/latestnav/index.php">Latest NAVs</a></li><li id="lhs_mut_fundtp"><a href="http://nseindia.moneycontrol.com/mutualfundindia/performance_tracker/snapshot.php">Top Performers</a></li><li id="lhs_mut_nfo"><a href="http://nseindia.moneycontrol.com/mutualfundindia/nfo/issueopenmf.php">New Fund Offers</a></li><li id="lhs_mut_cts"><a href="/products/content/equities/mutual_funds/mf_daily.htm">Current Trade Statistics</a></li><li id="lhs_mut_leas"><a href="/products/content/equities/mutual_funds/amc.htm">List of eligible AMC schemes</a></li><li id="lhs_mut_sip"><a href="/products/content/equities/mutual_funds/mf_sip.htm">Systematic Investment Plan </a></li></ul></li><li id="lhs_mut_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_mut_trade_stat"><a href="/products/content/equities/mutual_funds/historical_mfss.htm">Trade Statistics</a></li></ul></li><li id="lhs_mut_pi"><a href="/products/content/equities/mutual_funds/about_mfss.htm">About Mutual Funds</a><ul class="fifthNav" style="display: none;"><li id="lhs_mut_mfss"><a href="/products/content/equities/mutual_funds/about_mfss.htm">About Mutual Funds</a></li><li id="lhs_mut_mth"><a href="https://www.nseindia.com/products-services/mf-timings-holidays">Market Timings &amp; Holidays</a></li><li id="lhs_mut_og"><a href="https://www.nseindia.com/products-services/mf-operating-guidelines">Operating Guidelines</a></li><li id="lhs_mut_tntw"><a href="https://www.nseindia.com/products-services/mf-trading-using-neat">Trading using NEAT / Trader Workstation</a></li><li id="lhs_mut_cs"><a href="https://www.nseindia.com/products-services/mf-clearing-settlement">Clearing &amp; Settlement</a></li></ul></li></ul></li><li id="lhs_etf"><a href="https://www.nseindia.com/products-services/about-etfs">Exchange Traded Funds</a><ul class="fourthNav" style="display: none;"><li id="lhs_etf_cmr"><a href="https://www.nseindia.com/products-services/etfs-launched-on-nse">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_etf_etf"><a href="https://www.nseindia.com/products-services/etfs-launched-on-nse">ETFs Launched on NSE</a><ul class="sixthNav" style="display: none;"><li id="lhs_etf_equity"><a href="https://www.nseindia.com/products-services/etfs-equity">Equity</a></li><li id="lhs_etf_gold"><a href="https://www.nseindia.com/products-services/etfs-gold">Gold</a></li><li id="lhs_etf_world"><a href="https://www.nseindia.com/products-services/etfs-world-indices">World Indices</a></li><li id="lhs_etf_liquid"><a href="https://www.nseindia.com/products-services/etfs-debt">Debt</a></li></ul></li></ul></li><li id="lhs_etf_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_etf_pvdpa"><a href="/products/content/equities/equities/eq_security.htm">Price, volume and delivery position archives</a></li></ul></li><li id="lhs_etf_pi"><a href="https://www.nseindia.com/products-services/about-etfs">About ETFs</a><ul class="fifthNav" style="display: none;"><li id="lhs_etf_abtetf"><a href="https://www.nseindia.com/products-services/about-etfs">About ETFs</a></li><li id="lhs_etf_advetf"><a href="https://www.nseindia.com/products-services/etfs-advantages">Advantages of ETFs</a></li><li id="lhs_etf_competf"><a href="https://www.nseindia.com/products-services/etfs-other-mutual-funds-comparison">Comparison of ETFs with other mutual funds</a></li><li id="lhs_etf_cr"><a href="/products/content/equities/etfs/cretns_redempns.htm">Creations &amp; Redemptions</a></li><li id="lhs_etf_setf"><a href="https://www.nseindia.com/products-services/etfs-structure">Structure of ETF</a></li><li id="lhs_etf_aetf"><a href="https://www.nseindia.com/products-services/etfs-applications">Applications of ETFs</a></li><li id="lhs_etf_LES"><a href="https://www.nseindia.com/products-services/etfs-liquidity-enhancement-scheme">Liquidity Enhancement Scheme</a></li></ul></li></ul></li><li id="lhs_ipo"><a href="https://www.nseindia.com/products-services/about-initial-public-offerings">Initial Public Offerings</a><ul class="fourthNav" style="display: none;"><li id="lhs_ipo_cmr"><a href="#">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_ipo_bbci"><a href="/products/content/equities/ipos/homepage_ipo.htm">Book Building - Issues </a></li><li id="lhs_ipo_rbbci"><a href="/products/content/equities/ipos/homepage_reverse_curr_ipo.htm">Reverse Book Building - Current Issues</a></li><li id="lhs_ipo_rbbfi"><a href="/products/content/equities/ipos/homepage_reverse_forthcoming_ipo.htm">Reverse Book Building - Forthcoming Issues</a></li><li id="lhs_ipo_asba"><a href="https://www.nseindia.com/products-services/initial-public-offerings-bid-verification">Verify IPO Bid / Allotment Details</a></li></ul></li><li id="lhs_ipo_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_ipo_bbpi_invit"><a href="/products/content/equities/ipos/Invit_hist_ipo.htm">Book Building -Invit Past Issues</a></li><li id="lhs_ipo_bbpi"><a href="/products/content/equities/ipos/hist_ipo.htm">Book Building - Past Issues</a></li><li id="lhs_ipo_bbdpi"><a href="/products/content/equities/ipos/hist_ipo_debt.htm">Book Building - Debt Past Issues</a></li><li id="lhs_ipo_bbrpi"><a href="/products/content/equities/ipos/reits_hist_ipo.htm">Book Building - Reits Past Issues</a></li><li id="lhs_ipo_rbbpi"><a href="/products/content/equities/ipos/historical_reverse_ipo.htm">Reverse Book Building - Past Issues</a></li></ul></li><li id="lhs_ipo_pi"><a href="https://www.nseindia.com/products-services/about-initial-public-offerings">About IPOs</a><ul class="fifthNav" style="display: none;"><li id="lhs_ipo_aipo"><a href="https://www.nseindia.com/products-services/about-initial-public-offerings">About IPOs</a></li><li id="lhs_ipo_mem"><a href="/products/content/equities/ipos/ipo_mem_terminal.htm">Presence of Broker Terminals</a></li><li id="lhs_ipo_bb"><a href="https://www.nseindia.com/products-services/initial-public-offerings-book-building">Book Building</a></li><li id="lhs_ipo_rbb"><a href="https://www.nseindia.com/products-services/initial-public-offerings-reverse-book-building">Reverse Book Building</a></li><li id="lhs_ipo_proc"><a href="https://www.nseindia.com/products-services/initial-public-offerings-procedures">Procedures</a><ul class="sixthNav" style="display: none;"><li id="lhs_ipo_uh"><a href="https://www.nseindia.com/products-services/initial-public-offerings-user-hierarchy">User Hierarchy&nbsp;</a></li><li id="lhs_ipo_ob"><a href="https://www.nseindia.com/products-services/initial-public-offerings-order-book">Order Book</a></li><li id="lhs_ipo_tw"><a href="https://www.nseindia.com/products-services/initial-public-offerings-trader-workstation">Trader Workstation</a></li></ul></li><li id="lhs_ipo_asbap"><a href="https://www.nseindia.com/products-services/initial-public-offerings-asba-procedures">Application Supported by Blocked Amount (ASBA) Procedure</a><ul class="sixthNav" style="display: none;"><li id="lhs_ipo_asbauh"><a href="/products/content/equities/ipos/asba_user_hierarchy.htm">User Hierarchy&nbsp;</a></li><li id="lhs_ipo_asbaob"><a href="/products/content/equities/ipos/asba_order_book.htm">Order Book</a></li><li id="lhs_ipo_asbatw"><a href="/products/content/equities/ipos/asba_trader_workstn.htm">Trader Workstation</a></li></ul></li><li id="lhs_ipo_faqipo"><a href="https://www.nseindia.com/products-services/initial-public-offerings-faqs">FAQs on IPOs</a></li><li id="lhs_ipo_issuers"><a href="https://www.nseindia.com/products-services/initial-public-offerings-issuers">Issuers</a></li></ul></li></ul></li><li id="lhs_rights"><a href="/live_market/content/live_watch/rights/rights.htm">Rights</a></li><li id="lhs_tender_offer"><a href="/live_market/content/live_watch/tender_offer/tender_offer.htm">Tender Offer</a></li><li id="lhs_ofs"><a href="/products/content/equities/ofs/ofs.htm">Offer for Sale</a><ul class="fourthNav" style="display: none;"><li id="lhs_ofs_hm"><a href="/live_market/content/live_watch/offer_sale/ofs_sale.htm">OFS Current Issues </a></li><li id="lhs_ofs_pi"><a href="https://www.nseindia.com/products-services/offer-for-sale">More on OFS</a><ul class="fifthNav" style="display: none;"><li id="lhs_ipo_aofs"><a href="https://www.nseindia.com/products-services/offer-for-sale">About OFS</a></li><li id="lhs_ipo_faqofs"><a href="/products/content/equities/ofs/faqs_on_OFS.htm">FAQs on OFS</a></li><li id="lhs_ipo_ofsrpt"><a href="https://www.nseindia.com/products-services/offer-for-sale-eod-report-status">OFS EOD Report Status</a></li><li id="lhs_ipo_aofs_an"><a href="https://www.nseindia.com/products-services/offer-for-sale-announcement">OFS Announcement</a></li></ul></li></ul></li><li id="lhs_ipp"><a href="https://www.nseindia.com/products-services/about-institutional-placement-program">Institutional Placement Program</a><ul class="fourthNav" style="display: none;"><li id="lhs_ipp_hm"><a href="/live_market/content/live_watch/ipp/ipp_sale.htm">IPP Current Issues </a></li><li id="lhs_ipp_pi"><a href="https://www.nseindia.com/products-services/about-institutional-placement-program">About IPP</a><ul class="fifthNav" style="display: none;"><li id="lhs_ipo_aipp"><a href="https://www.nseindia.com/products-services/about-institutional-placement-program">About IPP</a></li><li id="lhs_ipp_trd"><a href="https://www.nseindia.com/products-services/institutional-placement-program-issuer">Issuer</a></li></ul></li></ul></li><li id="lhs_slbs"><a href="/products/content/equities/slbs/slbs.htm">Security Lending and Borrowing Scheme</a><ul class="fourthNav" style="display: none;"><li id="lhs_slbs_cmr"><a href="/products/content/equities/slbs/slbs.htm">Current Market Report</a><ul class="fifthNav" style="display: none;"><li id="lhs_slbs_tr"><a href="/products/content/equities/slbs/homepage_slbs.htm">Daily Reports</a></li><li id="lhs_slbs_wr"><a href="/products/content/equities/slbs/homepage_slbs_weekly.htm">Weekly Reports</a></li><li id="lhs_slbs_mr"><a href="/products/content/equities/slbs/homepage_slbs_monthly.htm">Monthly Reports</a></li></ul></li><li id="lhs_slbs_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_slbs_pvdps"><a href="/products/content/equities/slbs/slbs_security.htm">Price and volume&nbsp;data per security</a></li><li id="lhs_slbs_tstbg"><a href="/products/content/equities/slbs/slbs_trades_archives.htm">Trade Statistics / Turnover </a></li><li id="lhs_slbs_adr"><a href="/products/content/equities/slbs/archives_slbs.htm">Archives of Daily Reports</a></li></ul></li><li id="lhs_slbs_pi"><a href="https://www.nseindia.com/products-services/slbs-features">About SLBS</a><ul class="fifthNav" style="display: none;"><li id="lhs_slbs_fslbs"><a href="https://www.nseindia.com/products-services/slbs-features">Features of SLBS</a></li><li id="lhs_slbs_trade"><a href="https://www.nseindia.com/products-services/slbs-trading">Trading</a><ul class="sixthNav" style="display: none;"><li id="lhs_slbs_mth"><a href="https://www.nseindia.com/products-services/slbs-timings-holidays">Market Timings &amp; Holidays</a></li><li id="lhs_slbs_tw"><a href="https://www.nseindia.com/products-services/slbs-trader-workstation">Trader Workstation</a></li></ul></li><li id="lhs_slbs_rm"><a href="https://www.nseindia.com/products-services/slbs-risk-management">Risk Management</a><ul class="sixthNav" style="display: none;"><li id="lhs_slbs_cd"><a href="https://www.nseindia.com/products-services/slbs-collateral-deposits">Collateral Deposits&nbsp;</a></li><li id="lhs_slbs_marg"><a href="https://www.nseindia.com/products-services/slbs-margins">Margins</a></li></ul></li><li id="lhs_slbs_cs"><a href="https://www.nseindia.com/products-services/slbs-clearing-settlement">Clearing &amp; Settlement</a></li></ul></li></ul></li><li id="lhs_sgbs"><a href="/products/content/equities/sgbs/sgbs.htm">Sovereign Gold Bonds Scheme</a></li></ul></li><li id="lhs_Derivative"><h3 class="active">Derivatives</h3><ul class="thirdNav" style="display: block;"><li id="lhs_eqder"><a href="/products/content/derivatives/equities/fo.htm">Equity Derivatives</a><ul class="fourthNav" style="display: block;"><li id="lhs_eqder_cmr"><a href="javascript:void(0);">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_eqder_tr"><a href="/products/content/derivatives/equities/homepage_fo.htm">Daily Reports</a></li><li id="lhs_eqder_mr"><a href="/products/content/derivatives/equities/homepage_fo_monthly.htm">Monthly Reports</a></li></ul></li><li id="lhs_eqder_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_eqder_cwpva"><a href="/products/content/derivatives/equities/historical_fo.htm">Contract-wise Price Volume Archives</a></li><li id="lhs_eqder_admr"><a href="/products/content/derivatives/equities/archieve_fo.htm">Archives of Daily /Monthly&nbsp;Reports</a></li><li id="lhs_eqder_bg"><a href="/products/content/derivatives/equities/historical_fo_bussinessgrowth.htm">Business Growth</a></li><li id="lhs_eqder_mss"><a href="/products/content/equities/equities/eq_monthly_statistics.htm">Monthly Settlement Statistics</a></li><li id="lhs_eq_motd"><a href="/products/content/derivatives/equities/mode_of_trading.htm">Mode of Trading</a></li><li id="lhs_eq_posent"><a href="/products/content/derivatives/equities/fo_pos_of_entities.htm">Position of Group of Connected Clients</a></li><li id="lhs_eq_it"><a href="/products/dynaContent/common/Internet_trd_stats.jsp?setttype=F&amp;O">Internet Trading</a></li></ul></li><li id="lhs_eqder_pi"><a href="javascript:void(0);">About Equity Derivatives</a><ul class="fifthNav" style="display: block;"><li id="lhs_eqder_aed"><a href="/products/content/derivatives/equities/about_equity_der.htm">About Equity Derivatives</a></li><li id="lhs_eqder_prd"><a href="/products/content/derivatives/equities/products.htm">Products</a><ul class="sixthNav" style="display: none;"><li id="lhs_eqder_spcnx"><a href="/products/content/derivatives/equities/nifty_50_FO.htm">Nifty 50 F&amp;O</a></li><li id="lhs_eqder_cnxit"><a href="/products/content/derivatives/equities/niftyit_fando.htm">Nifty IT F&amp;O</a></li><li id="lhs_eqder_banknifty"><a href="/products/content/derivatives/equities/bank_nifty_fando.htm">Nifty Bank F&amp;O</a></li><li id="lhs_eqder_niftymidcap"><a href="/products/content/derivatives/equities/nifty_midcap_50.htm">Nifty Midcap 50 F&amp;O</a></li><li id="lhs_eqder_cnxpse"><a href="/products/content/derivatives/equities/nfity_pse_fo.htm">Nifty PSE F&amp;O</a></li><li id="lhs_eqder_cnxinfra"><a href="/products/content/derivatives/equities/nifty_infra_fo.htm">Nifty Infrastructure F&amp;O</a></li><li id="lhs_eqder_isfo"><a href="/products/content/derivatives/equities/individual_securities.htm">Individual Securities F&amp;O</a></li><li id="lhs_eqder_cpse"><a href="/products/content/derivatives/equities/nifty_cpse_fo.htm">Nifty CPSE</a></li></ul></li><li id="lhs_eqder_contract_info"><a href="/products/content/derivatives/equities/contract_info.htm">Contract Information</a><ul class="sixthNav" style="display: block;"><li id="lhs_eqder_cs"><a href="/products/content/derivatives/equities/contract_specifitns.htm">Contract Specifications</a></li><li id="lhs_eqder_sc"><a href="/products/content/derivatives/equities/selection_criteria.htm">Selection Criteria</a></li><li id="lhs_"><a href="/content/fo/sos_scheme.xls" target="_blank">Stock Options Strike Scheme</a></li><li id="lhs_"><a href="/content/fo/fo_mktlots.csv" target="_blank">Permitted Lot Sizes</a></li><li id="lhs_ "><a href="/content/fo/qtyfreeze.xls" target="_blank">Quantity Freeze</a></li><li id="lhs_eqder_luui" class="active"><a>List of Underlyings and Information</a></li></ul></li><li id="lhs_eqder_trad"><a href="/products/content/derivatives/equities/trading.htm">Trading</a><ul class="sixthNav" style="display: none;"><li id="lhs_eqder_mth"><a href="/products/content/derivatives/equities/mrkt_timing_holidays.htm">Market Timings &amp; Holidays</a></li><li id="lhs_eqder_pb"><a href="/products/content/derivatives/equities/price_bands.htm">Price Bands</a></li><li id="lhs_eqder_tl"><a href="/products/content/derivatives/equities/trading_locations.htm">Trading Locations</a></li><li id="lhs_eqder_ts"><a href="/products/content/derivatives/equities/trading_system.htm">Trading System</a></li><li id="lhs_eqder_ctcl"><a href="/products/content/derivatives/equities/comp_to_comp_link.htm">Computer to Computer Link (CTCL)</a></li><li id="lhs_eqder_it"><a href="/products/content/derivatives/equities/internet_trading.htm">Internet Trading</a></li><li id="lhs_eqder_acca"><a href="/products/content/derivatives/equities/adjust_in_case_corp.htm">Adjustments in case of Corporate Actions</a></li></ul></li><li id="lhs_eqder_rm"><a href="/products/content/derivatives/equities/risk_management.htm">Risk Management</a><ul class="sixthNav" style="display: none;"><li id="lhs_eqder_liqass"><a href="/products/content/derivatives/equities/liquid_assets.htm">Liquid Assets</a></li><li id="lhs_eqder_marg"><a href="/products/content/derivatives/equities/margins.htm">Margins</a></li><li id="lhs_eqder_volco"><a href="/products/content/derivatives/equities/vol_close_out.htm">Voluntary Close out Facility</a></li><li id="lhs_eqder_nsccl"><a href="/products/content/derivatives/equities/nsccl_span.htm">NSE Clearing SPAN</a></li><li id="lhs_eqder_pc"><a href="/products/content/derivatives/equities/pc_span.htm">PC SPAN</a></li><li id="lhs_eqder_spanrisk"><a href="/products/content/derivatives/equities/span_risk_parameters.htm">SPAN Risk Parameter Files</a></li><li id="lhs_eqder_paymar"><a href="/products/content/derivatives/equities/payment_of_margins.htm">Payment of Margins</a></li><li id="lhs_eqder_poslim"><a href="/products/content/derivatives/equities/position_limits.htm">Position Limits</a></li><li id="lhs_eqder_viol"><a href="/products/content/derivatives/equities/violations.htm">Violations</a></li><li id="lhs_eqder_climr"><a href="/products/content/derivatives/equities/client_margin_report.htm">Client Margin Reporting</a></li><li id="lhs_eqder_fc"><a href="/products/content/derivatives/equities/formats_collaterals.htm">Formats for collaterals</a></li><li id="lhs_eqder_crsmarg"><a href="/products/content/derivatives/equities/cross_margin.htm">Cross Margin</a></li></ul></li><li id="lhs_eqder_clrs"><a href="/products/content/derivatives/equities/clearing_settlement.htm">Clearing and Settlement</a><ul class="sixthNav" style="display: none;"><li id="lhs_eqder_clm"><a href="/products/content/derivatives/equities/clearing_member.htm">Clearing Members</a></li><li id="lhs_eqder_clb"><a href="/products/content/derivatives/equities/clearing_bank.htm">Clearing Banks</a></li><li id="lhs_eqder_clmec"><a href="/products/content/derivatives/equities/clearing_mechanism.htm">Clearing Mechanism</a></li><li id="lhs_eqder_ss"><a href="/products/content/derivatives/equities/settlement_schedule.htm">Settlement Schedule</a></li><li id="lhs_eqder_sp"><a href="/products/content/derivatives/equities/settlement_price.htm">Settlement Price</a></li><li id="lhs_eqder_sm"><a href="/products/content/derivatives/equities/settlement_mechanism.htm">Settlement Mechanism</a></li><li id="lhs_eqder_caa"><a href="/products/content/derivatives/equities/adjust_in_case_corp.htm">Corporate Action Adjustment</a></li><li id="lhs_eqder_csdrd"><a href="/products/content/derivatives/equities/data_report.htm">Data &amp; Reports Download</a></li><li id="lhs_eqder_pen"><a href="/products/content/derivatives/equities/penalties.htm">Penalties</a></li><li id="lhs_eqder_cpd"><a href="/products/content/derivatives/equities/cp_deals.htm">Custodial Participant Deals</a></li><li id="lhs_eqder_csfiiposlim"><a href="/products/content/derivatives/equities/fii_mi_position.htm">FII/MF position limits</a></li><li id="lhs_eqder_stt"><a href="/products/content/derivatives/equities/sec_tranc_tax.htm">Securities Transaction Tax</a></li></ul></li></ul></li></ul></li><li id="lhs_comder"><a href="/products/content/derivatives/commodity/commodities.htm">Commodity Derivatives</a><ul class="fourthNav" style="display: none;"><li id="lhs_comder_cmr"><a href="javascript:void(0);">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_comder_tr"><a href="/products/content/derivatives/commodity/homepage_com.htm">Daily Reports</a></li></ul></li><li id="lhs_comder_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_comder_cwpva"><a href="/products/content/derivatives/commodity/historical_contract_com.htm">Contract-wise Price Volume Archives</a></li><li id="lhs_comder_admr"><a href="/products/content/derivatives/commodity/archive_com.htm">Archives of Daily /Monthly Reports</a></li><li id="lhs_comder_spot"><a href="/products/content/derivatives/commodity/historical_spot_rate_com.htm">Historical Spot Rate</a></li><li id="lhs_comder_dwt"><a href="/products/content/derivatives/commodity/historical_daywise_com.htm">Day-wise Turnover</a></li><li id="lhs_comder_bg"><a href="/products/content/derivatives/commodity/com_historical_businessGrowth.htm">Business Growth</a></li><li id="lhs_eqder_mss"><a href="/products/content/equities/equities/eq_monthly_statistics.htm">Monthly Settlement Statistics</a></li><li id="lhs_comder_compr"><a href="/products/content/derivatives/commodity/compliance_reports.htm">Compliance Reports</a></li><li id="lhs_eq_it"><a href="/products/dynaContent/common/Internet_trd_stats.jsp?setttype=F&amp;O">Internet Trading</a></li><li id="lhs_comder_motd"><a href="/products/content/derivatives/commodity/com_mode_of_trading.htm">Mode of Trading</a></li></ul></li><li id="lhs_comder_pi"><a href="javascript:void(0);">About Commodity Derivatives</a><ul class="fifthNav" style="display: none;"><li id="lhs_comder_comm"><a href="/products/content/derivatives/commodity/about_com_der.htm">About Commodity Derivatives</a></li><li id="lhs_comder_prd"><a href="/products/content/derivatives/commodity/products_commodity.htm">Products</a><ul class="sixthNav" style="display: none;"><li id="lhs_comder_pgold"><a href="/products/content/derivatives/commodity/commodity_GOLD.htm">Gold</a></li><li id="lhs_comder_psilver"><a href="/products/content/derivatives/commodity/commodity_SILVER.htm">Silver</a></li><li id="lhs_comder_pbrent"><a href="/products/content/derivatives/commodity/commodity_BRENT.htm">Brent</a></li></ul></li><li id="lhs_comder_contract_info"><a href="/products/content/derivatives/commodity/contract_info.htm">Contract Information</a><ul class="sixthNav" style="display: none;"><li id="lhs_comder_cs"><a href="/products/content/derivatives/commodity/com_contract_specifitns.htm">Contract Specifications for Bullion Futures</a></li><li id="lhs_comder_csef"><a href="/products/content/derivatives/commodity/Contr_spec_enrgfut.htm">Contract Specifications for Energy Futures</a></li><li id="lhs_comder_mspp"><a href="/products/content/derivatives/commodity/com_mechanism_spot_polling.htm">Mechanism of Spot Price Polling</a></li><li id="lhs_comder_dsp"><a href="/products/content/derivatives/commodity/com_del_sett_procedure.htm">Delivery and Settlement Procedure</a></li></ul></li><li id="lhs_comder_trad"><a href="/products/content/derivatives/commodity/com_trading.htm">Trading</a><ul class="sixthNav" style="display: none;"><li id="lhs_comder_mth"><a href="/global/content/market_timings_holidays/market_timings_holidays.htm">Market Timings &amp; Holidays</a></li><li id="lhs_comder_tl"><a href="/products/content/derivatives/commodity/com_trading_locations.htm">Trading Locations</a></li><li id="lhs_comder_ts"><a href="/products/content/derivatives/commodity/com_trading_system.htm">Trading System</a></li><li id="lhs_comder_ctcl"><a href="/products/content/derivatives/commodity/com_ctcl.htm">Computer to Computer Link (CTCL)</a></li><li id="lhs_comder_it"><a href="/products/content/derivatives/commodity/com_internet_trading.htm">Internet Trading</a></li><li id="lhs_comder_hl"><a href="/products/content/derivatives/commodity/hedge_policy.htm">Hedge Policy</a></li></ul></li><li id="lhs_comder_rm"><a href="/products/content/derivatives/commodity/com_risk_management.htm">Risk Management</a><ul class="sixthNav" style="display: none;"><li id="lhs_comder_marg"><a href="/products/content/derivatives/commodity/com_margins.htm">Margins</a></li><li id="lhs_comder_liqass"><a href="/products/content/derivatives/commodity/com_liquid_assets.htm">Liquid Assets</a></li><li id="lhs_comder_rrm"><a href="/products/content/derivatives/commodity/com_risk_red_mode.htm">Risk Reduction Mode</a></li><li id="lhs_comder_volco"><a href="/products/content/derivatives/commodity/com_vol_close_out.htm">Voluntary Close out Facility</a></li><li id="lhs_comder_nsccl"><a href="/products/content/derivatives/commodity/com_nsccl_span.htm">NSCCL SPAN</a></li><li id="lhs_comder_pc"><a href="/products/content/derivatives/commodity/com_pc_span.htm">PC SPAN</a></li><li id="lhs_comder_paymar"><a href="/products/content/derivatives/commodity/com_payment_of_margins.htm">Payment of Margins</a></li><li id="lhs_comder_viol"><a href="/products/content/derivatives/commodity/com_violations.htm">Violations</a></li><li id="lhs_comder_climr"><a href="/products/content/derivatives/commodity/com_client_margin_report.htm">Client Margin Reporting</a></li></ul></li><li id="lhs_comder_clrs"><a href="/products/content/derivatives/commodity/com_clearing_settlement.htm">Clearing and Settlement</a><ul class="sixthNav" style="display: none;"><li id="lhs_comder_clm"><a href="/products/content/derivatives/commodity/com_clearing_member.htm">Clearing Members</a></li><li id="lhs_comder_clb"><a href="/products/content/derivatives/commodity/com_clearing_bank.htm">Clearing Banks</a></li><li id="lhs_comder_clmec"><a href="/products/content/derivatives/commodity/com_clearing_mechanism.htm">Clearing Mechanism</a></li><li id="lhs_comder_ss"><a href="/products/content/derivatives/commodity/com_settlement_schedule.htm">Settlement Schedule</a></li><li id="lhs_comder_sp"><a href="/products/content/derivatives/commodity/com_settlement_price.htm">Settlement Price</a></li><li id="lhs_comder_sm"><a href="/products/content/derivatives/commodity/com_settlement_mechanism.htm">Settlement Mechanism</a></li><li id="lhs_comder_csdrd"><a href="/products/content/derivatives/commodity/com_data_report.htm">Data and Reports Download</a></li><li id="lhs_comder_pen"><a href="/products/content/derivatives/commodity/com_penalties.htm">Penalties</a></li><li id="lhs_comder_ctt"><a href="/products/content/derivatives/commodity/com_tax.htm">Commodities Transaction Tax</a></li></ul></li><li id="lhs_comder_wh"><a href="/products/content/derivatives/commodity/warehouse.htm">Warehouse and Logistics</a></li></ul></li></ul></li><li id="lhs_currdev"><a href="/products/content/derivatives/currency/cd.htm">Currency Derivatives</a><ul class="fourthNav" style="display: none;"><li id="lhs_currder_cmr"><a href="javascript:void(0);">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_currder_tr"><a href="/products/content/derivatives/currency/homepage_cd.htm">Daily Reports</a></li></ul></li><li id="lhs_currder_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_currder_bgrowth"><a href="/products/content/derivatives/currency/cd_historical_businessGrowth.htm">Business Growth in Currency Derivatives</a></li><li id="lhs_currder_cwpva"><a href="/products/content/derivatives/currency/historical_daywise_cd.htm">Day-wise turnover Archives</a></li><li id="lhs_currder_admr"><a href="/products/content/derivatives/currency/archieve_cd.htm">Archives of Daily Reports</a></li><li id="lhs_currder_bg"><a href="/products/content/derivatives/currency/historical_contract_cd.htm">Contract-wise Price/Volume Archives</a></li><li id="lhs_currder_cds_mode"><a href="/products/content/derivatives/equities/cd_mode_of_trading.htm">CDS mode of trading data</a></li><li id="lhs_currder_rbi"><a href="/products/content/derivatives/currency/historical_rbiRate.htm">RBI Reference rate Archives</a></li><li id="lhs_cd_posent"><a href="/products/content/derivatives/currency/cd_pos_entities.htm">Position of Group of Connected Clients</a></li><li id="lhs_eq_it"><a href="/products/dynaContent/common/Internet_trd_stats.jsp?setttype=cd">Internet Trading</a></li></ul></li><li id="lhs_currdev_pi"><a href="javascript:void(0);">About Currency Derivatives</a><ul class="fifthNav" style="display: none;"><li id="lhs_currder_trad"><a href="javascript:void(0);">Trading</a><ul class="sixthNav" style="display: none;"><li id="lhs_currdev_mth"><a href="/products/content/derivatives/curr_der/mrkt_timing_holidays.htm">Market Timings &amp; Holidays</a></li><li id="lhs_currdev_cs"><a href="/products/content/derivatives/curr_der/cd_contract_specifications.htm">Contract Specifications - INR pairs</a></li><li id="lhs_currdev_cross"><a href="/products/content/derivatives/curr_der/Cross_currency_contract_specs.htm">Contract Specifications - Cross Currency</a></li><li id="lhs_eq_it"><a href="/products/dynaContent/common/Internet_trd_stats.jsp?setttype=cd">Internet Trading</a></li></ul></li><li id="lhs_currdev_rm"><a href="/products/content/derivatives/curr_der/risk_mgt.htm">Risk Management</a><ul class="sixthNav" style="display: none;"><li id="lhs_currdev_la"><a href="/products/content/derivatives/curr_der/liquid_assets.htm">Liquid Assets</a></li><li id="lhs_currdev_marg"><a href="/products/content/derivatives/curr_der/margins.htm">Margins</a></li><li id="lhs_currdev_par"><a href="/products/content/derivatives/curr_der/parameters.htm">Parameters</a></li><li id="lhs_currdev_paymarg"><a href="/products/content/derivatives/curr_der/pymt_of_margins.htm">Payment of Margins</a></li><li id="lhs_currdev_poslim"><a href="/products/content/derivatives/curr_der/position_limits.htm">Position Limits</a></li><li id="lhs_currdev_viol"><a href="/products/content/derivatives/curr_der/violations.htm">Violations</a></li><li id="lhs_currdev_climr"><a href="/products/content/derivatives/curr_der/clnt_mar_report.htm">Client Margin Reporting</a></li><li id="lhs_currdev_fc"><a href="/products/content/derivatives/curr_der/formats_collaterals.htm">Formats for collaterals</a></li><li id="lhs_currdev_pen"><a href="/products/content/derivatives/curr_der/cd_penalties.htm">Penalties</a></li></ul></li><li id="lhs_currdev_cs1"><a href="/products/content/derivatives/curr_der/clr_n_snlt.htm">Clearing &amp; Settlement</a><ul class="sixthNav" style="display: none;"><li id="lhs_currdev_cm"><a href="/products/content/derivatives/curr_der/clearing_mem.htm">Clearing Members</a></li><li id="lhs_currdev_cb"><a href="/products/content/derivatives/curr_der/clearing_banks.htm">Clearing Banks</a></li><li id="lhs_currdev_clm"><a href="/products/content/derivatives/curr_der/clrn_mech.htm">Clearing Mechanism</a></li><li id="lhs_currdev_ss"><a href="/products/content/derivatives/curr_der/settlement_sch.htm">Settlement Schedule</a></li><li id="lhs_currdev_sp"><a href="/products/content/derivatives/curr_der/settlement_price.htm">Settlement Price</a></li><li id="lhs_currdev_sm"><a href="/products/content/derivatives/curr_der/settlement_mech.htm">Settlement Mechanism</a></li><li id="lhs_currdev_cpd"><a href="/products/content/derivatives/curr_der/cp_deal.htm">Custodial Participant deals</a></li><li id="lhs_currdev_trd"><a href="/products/content/derivatives/curr_der/data_rep_dwn.htm">Data &amp; Reports Download</a></li></ul></li></ul></li></ul></li><li id="lhs_irf"><a href="/products/content/derivatives/irf/irf.htm">Interest Rate Futures</a><ul class="fourthNav" style="display: none;"><li id="lhs_irf_cmr"><a href="javascript:void(0);">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_irf_tr"><a href="/products/content/derivatives/irf/homepage_irf.htm">Daily Reports</a></li></ul></li><li id="lhs_irf_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_irf_bgrowth"><a href="/products/content/derivatives/irf/irf_historical_businessGrowth.htm">Business Growth in IRD</a></li><li id="lhs_irf_cwpva"><a href="/products/content/derivatives/irf/historical_daywise_irf.htm">Day-wise turnover Archives</a></li><li id="lhs_irf_admr"><a href="/products/content/derivatives/irf/archieve_irf.htm">Archives of Daily Reports</a></li><li id="lhs_irf_bg"><a href="/products/content/derivatives/irf/historical_contract_irf.htm">Contract-wise Price/Volume Archives</a></li></ul></li><li id="lhs_irf_pi"><a href="javascript:void(0);">About NBF</a><ul class="fifthNav" style="display: none;"><li id="lhs_irf_airf"><a href="/products/content/derivatives/irf/about_irf.htm">About NBF</a></li><li id="lhs_irf_pro"><a href="/products/content/derivatives/irf/irf_products.htm">Products</a></li><li id="lhs_irf_mkt"><a href="/products/content/derivatives/irf/mrkt_timing_holidays.htm">Market Timing &amp; Holidays</a></li><li id="lhs_irf_cs"><a href="/products/content/derivatives/irf/contract_specifications.htm">Contract Specifications</a></li><li id="lhs_irf_rm"><a href="/products/content/derivatives/irf/risk_management.htm">Risk Management</a><ul class="sixthNav" style="display: none;"><li id="lhs_irf_marg"><a href="/products/content/derivatives/irf/margins.htm">Margins</a></li><li id="lhs_irf_paymar"><a href="/products/content/derivatives/irf/payment_of_margins.htm">Payment of Margins</a></li><li id="lhs_irf_poslim"><a href="/products/content/derivatives/irf/position_limits.htm">Position Limits</a></li></ul></li><li id="lhs_irf_cls"><a href="/products/content/derivatives/irf/clearing_n_settlement.htm">Clearing &amp; Settlement</a><ul class="sixthNav" style="display: none;"><li id="lhs_irf_cm"><a href="/products/content/derivatives/irf/clearing_members.htm">Clearing Members</a></li><li id="lhs_irf_cb"><a href="/products/content/derivatives/irf/clearing_banks.htm">Clearing Banks</a></li><li id="lhs_irf_sm"><a href="/products/content/derivatives/irf/settlement_mechanism.htm">Settlement Mechanism</a></li><li id="lhs_irf_drd"><a href="/products/content/derivatives/irf/data_reports_download.htm">Data &amp; Reports Download</a></li></ul></li></ul></li></ul></li><li id="lhs_gi_vp"><a href="/portfolioTracker/content/mynse/userlogin.htm">Virtual Play</a></li></ul></li><li id="lhs_Debt"><h3>Debt</h3><ul class="thirdNav" style="display: none;"><li id="lhs_wdm"><a href="/products/content/debt/wdm/ndm.htm">Debt Segment</a><ul class="fourthNav" style="display: none;"><li id="lhs_wdm_cmr"><a href="javascript:void(0);">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_wdm_tr"><a href="/products/content/debt/wdm/homepage_wdm.htm">Daily Reports</a></li><li id="lhs_wdm_wr"><a href="/products/content/debt/wdm/homepage_wdm_weekly.htm">Weekly Reports</a></li><li id="lhs_wdm_mr"><a href="/products/content/debt/wdm/homepage_wdm_monthly.htm">Monthly Reports</a></li></ul></li><li id="lhs_wdm_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_wdm_swtd"><a href="/products/content/debt/wdm/wdm_sec_hist.htm">Security wise Trades Data</a></li><li id="lhs_wdm_tstbg"><a href="/products/content/debt/wdm/historical_debt_businessgrowth.htm">Trade Statistics / Turnover / Business Growth</a></li><li id="lhs_wdm_adwmr"><a href="/products/content/debt/wdm/archieve_debt.htm">Archives of Daily, Weekly, Monthly Reports</a></li><li id="lhs_wdm_fiia"><a href="/products/content/debt/wdm/wdm_fiiarchive.htm">FII Debt Limit Auction</a></li></ul></li><li id="lhs_wdm_pi"><a href="javascript:void(0);">About Negotiated Trade Reporting Platform</a><ul class="fifthNav" style="display: none;"><li id="lhs_wdm_awdm"><a href="/products/content/debt/wdm/about_wdm.htm">About Negotiated Trade Reporting Platform</a></li><li id="lhs_wdm_trade"><a href="/products/content/debt/wdm/trading.htm">Trading</a><ul class="sixthNav" style="display: none;"><li id="lhs_wdm_mth"><a href="/products/content/debt/wdm/mrkt_timing_holidays.htm">Market Timings &amp; Holidays</a></li><li id="lhs_wdm_ent"><a href="/products/content/debt/wdm/entities.htm">Entities</a></li><li id="lhs_wdm_tradesys"><a href="/products/content/debt/wdm/reporting_system.htm">Reporting System</a></li><li id="lhs_wdm_brokerat"><a href="/products/content/debt/wdm/brokerage_rates.htm">Brokerage Rates</a></li></ul></li><li id="lhs_wdm_sett"><a href="/products/content/debt/wdm/settlement.htm">Settlement</a></li><li id="lhs_wdm_ps"><a href="/products/content/debt/wdm/products_services.htm">Products &amp; Services</a><ul class="sixthNav" style="display: none;"><li id="lhs_wdm_fnmm"><a href="/products/content/debt/wdm/fimmda_mibid_mibor.htm">FIMMDA-NSE MIBID MIBOR</a></li></ul></li><li id="lhs_cb_issdesc"><a href="/products/content/debt/corp_bonds/issue_descriptor.htm">Issue Descriptor</a></li></ul></li></ul></li><li id="lhs_cb"><a href="/products/content/debt/corp_bonds/cbm.htm">Corporate Bonds</a><ul class="fourthNav" style="display: none;"><li id="lhs_cb_cmr"><a href="javascript:void(0);">Current Market Reports</a><ul class="fifthNav" style="display: none;"><li id="lhs_cb_tr"><a href="/products/content/debt/corp_bonds/homepage_cbm.htm">Daily Reports</a></li><li id="lhs_cb_eodsd"><a href="/products/content/debt/corp_bonds/cb_settlement.htm">Settlement Data</a><ul class="sixthNav" style="display: none;"><li id="lhs_cbm_eodsd"><a href="/products/content/debt/corp_bonds/cbm_settlement.htm">Corporate Bonds</a></li><li id="lhs_cd_eodsd"><a href="/products/content/debt/corp_bonds/cd_settlement.htm">Certificate of Deposit</a></li><li id="lhs_cp_eodsd"><a href="/products/content/debt/corp_bonds/cp_settlement.htm">Commercial Paper</a></li><li id="lhs_sdi_st"><a href="/products/content/debt/sdi/sdi_settlement.htm">Securtised Debt Instrument</a></li></ul></li><li id="lhs_cb_fs"><a href="/products/content/debt/corp_bonds/cbmhist_security.htm">Find a Security</a></li><li id="lhs_cb_ble"><a href="/products/content/debt/corp_bonds/cbm_corp_bonds.htm">Bonds listed on the Exchange</a></li></ul></li><li id="lhs_cb_hd"><a href="javascript:void(0);">Historical Data</a><ul class="fifthNav" style="display: none;"><li id="lhs_cb_tstbg"><a href="/products/content/debt/corp_bonds/cbm_trades_archives.htm">Trade Statistics / Turnover / Business Growth</a></li><li id="lhs_cb_adr"><a href="/products/content/debt/corp_bonds/archieve_cbm.htm">Archives of Daily Reports</a></li><li id="lhs_cb_std"><a href="/products/content/debt/corp_bonds/cbmhist_data.htm">Securitywise Trade Data</a></li><li id="lhs_cb_cbcsa"><a href="/products/content/debt/corp_bonds/cbm_sett_data_archives.htm">Clearing &amp; Settlement - Archives</a></li></ul></li><li id="lhs_cb_pi"><a href="javascript:void(0);">About Corporate Bonds</a><ul class="fifthNav" style="display: none;"><li id="lhs_cb_acb"><a href="/products/content/debt/corp_bonds/about_corp_bonds.htm">About Corporate Bonds</a></li><li id="lhs_cb_mth"><a href="/products/content/debt/corp_bonds/mrkt_timing_holidays.htm">Market Timings &amp; Holidays</a></li><li id="lhs_cb_cbrs"><a href="/products/content/debt/corp_bonds/corp_bond_report_sys.htm">Corporate Bond Reporting System</a></li><li id="lhs_cb_cs"><a href="/products/content/debt/corp_bonds/clearing_settlement.htm">Clearing and Settlement</a><ul class="sixthNav" style="display: none;"><li id="lhs_cb_part"><a href="/products/content/debt/corp_bonds/participants.htm">Participants&nbsp;</a></li><li id="lhs_cb_ss"><a href="/products/content/debt/corp_bonds/settlement_schedule.htm">Settlement Schedule&nbsp;</a></li><li id="lhs_cb_rp"><a href="/products/content/debt/corp_bonds/reports.htm">Reports</a></li></ul></li></ul></li></ul></li><li id="lhs_ebp"><a href="/products/content/debt/ebp/ebp.htm">NSE EBP</a></li><li id="lhs_ncbp_final"><a href="/products/content/debt/ncbp/about_ncbp.htm">Non Competitive Bidding in Government Securities</a><ul class="fourthNav" style="display: none;"><li id="lhs_ncbp_rd"><a href="javascript:void(0);">Current Issues at NSE</a><ul class="fifthNav" style="display: none;"><li id="lhs_ncbp_report"><a href="/products/content/debt/ncbp/ncbp_issues.htm">NCBP</a></li></ul></li><li id="lhs_ncbp_ab"><a href="javascript:void(0);">About Non-Competitive Bidding</a><ul class="fifthNav" style="display: none;"><li id="lhs_ncbp_about"><a href="/products/content/debt/ncbp/ncbp_e_gsec.htm">NCB Scheme</a></li><li id="lhs_ncbp_fea"><a href="/products/content/debt/ncbp/features_ncbp.htm">Key Features</a></li><li id="lhs_ncbp_fraea"><a href="/products/content/debt/ncbp/Mode_to_nscp.htm">How to invest Gsec</a></li></ul></li></ul></li><li id="lhs_tprepo"><a href="/products/content/debt/tripartyrepo/about_tripartyrepo.htm">Tri Party Repo</a><ul class="fourthNav" style="display: none;"><li id="lhs_tpr"><a href="javascript:void(0);">Market</a><ul class="fifthNav" style="display: none;"><li id="lhs_tpr_livemarket"><a href="/products/content/debt/tripartyrepo/tri_party_repo.htm">Live Market Watch</a></li><li id="lhs_tpr_arch"><a href="/products/content/debt/tripartyrepo/tpr_trades_archives.htm">Historical Data</a></li></ul></li><li id="lhs_tpr_about"><a href="/products/content/debt/tripartyrepo/tri-partyrepo_intro.htm">About Tri-Party Repo</a><ul class="fifthNav" style="display: none;"><li id="lhs_tpr_ms"><a href="/products/content/debt/tripartyrepo/mrkt_txns.htm">Market Transactions</a></li><li id="lhs_tpr_param"><a href="/products/content/debt/tripartyrepo/tpr_parameters.htm">Repo Parameters</a></li><li id="lhs_tpr_mth"><a href="/products/content/debt/tripartyrepo/trp_holidays.htm">Market Timings &amp; Holidays</a></li><li id="lhs_tpr_eligp"><a href="/products/content/debt/tripartyrepo/participants.htm">Eligibility of Participants</a></li><li id="lhs_tpr_sat"><a href="/products/content/debt/tripartyrepo/eligible_securities.htm">Eligible Securities &amp; Valuation</a></li></ul></li><li id="lhs_tpr_sett"><a href="/products/content/debt/tripartyrepo/tpr_settlement.htm">Settlement</a><ul class="fifthNav" style="display: none;"><li id="lhs_tpr_scyc"><a href="/products/content/debt/tripartyrepo/tprsettlement_cycle.htm">Settlement Obligation</a></li><li id="lhs_tpr_fs"><a href="/products/content/debt/tripartyrepo/tprfunds_settlement.htm">Funds Settlement </a></li><li id="lhs_tpr_short"><a href="/products/content/debt/tripartyrepo/tpr_shortages.htm">Shortages Handling</a></li></ul></li><li id="lhs_tpr_rm"><a href="/products/content/debt/tripartyrepo/tprrisk_management.htm">Risk Management</a><ul class="fifthNav" style="display: none;"><li id="lhs_tpr_cr"><a href="/products/content/debt/tripartyrepo/collateral_req.htm">Collateral Requirements</a></li><li id="lhs_tpr_cdcm"><a href="/products/content/debt/tripartyrepo/collateral_deposits.htm">Collateral Deposits of Clearing Member</a></li><li id="lhs_tpr_dep"><a href="/products/content/debt/tripartyrepo/tpr_depository.htm">Maintenance of Depository Account</a></li></ul></li></ul></li></ul></li><li id="lhs_Trackers"><h3>Trackers</h3></li></ul></li></ul></div>
+				<div class="content">
+					<h2></h2>
+					<div class="archives">
+						<p></p><div style="display: none;" id="backLink"><h4><a class="backPage" href="/products/content/derivatives/equities/fo_underlying_home.htm">Back</a></h4></div>
+					<p></p>
+						<div id="replacetext" class="tabular-data-historic" style="width:100%"><table>
+<tbody><tr class="alt"><th>S. No.
+</th><th>Underlying
+</th><th>Symbol</th></tr>
+<tr>
+<td style="text-align: right;">1</td>
+<td class="normalText"><a href="fo_NIFTY.htm">Nifty 50</a></td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=NIFTY">NIFTY</a></td>
+</tr>
+<tr class="alt">
+<td style="text-align: right;">2</td>
+<td class="normalText"><a href="fo_BANKNIFTY.htm">Nifty Bank</a></td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BANKNIFTY">BANKNIFTY</a></td>
+</tr>
+<tr>
+<td colspan="3" class="normalText">Derivatives on Individual Securities</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">1
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ACC.htm')">ACC LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ACC">ACC</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">2
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ADANIENT.htm')">ADANI ENTERPRISES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ADANIENT">ADANIENT</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">3
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ADANIPORTS.htm')">ADANI PORTS AND SPECIAL ECONOMIC ZONE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ADANIPORTS">ADANIPORTS</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">4
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_AMARAJABAT.htm')">AMARA RAJA BATTERIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=AMARAJABAT">AMARAJABAT</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">5
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_AMBUJACEM.htm')">AMBUJA CEMENTS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=AMBUJACEM">AMBUJACEM</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">6
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_APOLLOHOSP.htm')">APOLLO HOSPITALS ENTERPRISE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=APOLLOHOSP">APOLLOHOSP</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">7
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_APOLLOTYRE.htm')">APOLLO TYRES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=APOLLOTYRE">APOLLOTYRE</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">8
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ASHOKLEY.htm')">ASHOK LEYLAND LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ASHOKLEY">ASHOKLEY</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">9
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ASIANPAINT.htm')">ASIAN PAINTS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ASIANPAINT">ASIANPAINT</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">10
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_AUROPHARMA.htm')">AUROBINDO PHARMA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=AUROPHARMA">AUROPHARMA</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">11
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_AXISBANK.htm')">AXIS BANK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=AXISBANK">AXISBANK</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">12
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BAJAJ-AUTO.htm')">BAJAJ AUTO LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BAJAJ-AUTO">BAJAJ-AUTO</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">13
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BAJFINANCE.htm')">BAJAJ FINANCE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BAJFINANCE">BAJFINANCE</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">14
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BAJAJFINSV.htm')">BAJAJ FINSERV LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BAJAJFINSV">BAJAJFINSV</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">15
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BALKRISIND.htm')">BALKRISHNA INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BALKRISIND">BALKRISIND</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">16
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BANDHANBNK.htm')">BANDHAN BANK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BANDHANBNK">BANDHANBNK</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">17
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BANKBARODA.htm')">BANK OF BARODA</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BANKBARODA">BANKBARODA</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">18
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BATAINDIA.htm')">BATA INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BATAINDIA">BATAINDIA</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">19
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BERGEPAINT.htm')">BERGER PAINTS (I) LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BERGEPAINT">BERGEPAINT</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">20
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BEL.htm')">BHARAT ELECTRONICS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BEL">BEL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">21
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BHARATFORG.htm')">BHARAT FORGE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BHARATFORG">BHARATFORG</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">22
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BPCL.htm')">BHARAT PETROLEUM CORPORATION LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BPCL">BPCL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">23
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BHARTIARTL.htm')">BHARTI AIRTEL LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BHARTIARTL">BHARTIARTL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">24
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_INFRATEL.htm')">BHARTI INFRATEL LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=INFRATEL">INFRATEL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">25
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BHEL.htm')">BHARAT HEAVY ELECTRICALS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BHEL">BHEL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">26
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BIOCON.htm')">BIOCON LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BIOCON">BIOCON</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">27
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BOSCHLTD.htm')">BOSCH LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BOSCHLTD">BOSCHLTD</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">28
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_BRITANNIA.htm')">BRITANNIA INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=BRITANNIA">BRITANNIA</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">29
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_CADILAHC.htm')">CADILA HEALTHCARE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=CADILAHC">CADILAHC</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">30
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_CANBK.htm')">CANARA BANK</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=CANBK">CANBK</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">31
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_CENTURYTEX.htm')">CENTURY TEXTILES &amp; INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=CENTURYTEX">CENTURYTEX</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">32
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_CHOLAFIN.htm')">CHOLAMANDALAM INVESTMENT AND FINANCE COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=CHOLAFIN">CHOLAFIN</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">33
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_CIPLA.htm')">CIPLA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=CIPLA">CIPLA</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">34
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_COALINDIA.htm')">COAL INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=COALINDIA">COALINDIA</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">35
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_COLPAL.htm')">COLGATE PALMOLIVE (INDIA) LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=COLPAL">COLPAL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">36
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_CONCOR.htm')">CONTAINER CORPORATION OF INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=CONCOR">CONCOR</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">37
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_CUMMINSIND.htm')">CUMMINS INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=CUMMINSIND">CUMMINSIND</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">38
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_DABUR.htm')">DABUR INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=DABUR">DABUR</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">39
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_DIVISLAB.htm')">DIVI'S LABORATORIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=DIVISLAB">DIVISLAB</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">40
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_DLF.htm')">DLF LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=DLF">DLF</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">41
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_DRREDDY.htm')">DR. REDDY'S LABORATORIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=DRREDDY">DRREDDY</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">42
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_EICHERMOT.htm')">EICHER MOTORS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=EICHERMOT">EICHERMOT</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">43
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_EQUITAS.htm')">EQUITAS HOLDINGS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=EQUITAS">EQUITAS</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">44
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ESCORTS.htm')">ESCORTS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ESCORTS">ESCORTS</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">45
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_EXIDEIND.htm')">EXIDE INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=EXIDEIND">EXIDEIND</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">46
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_FEDERALBNK.htm')">THE FEDERAL BANK&nbsp; LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=FEDERALBNK">FEDERALBNK</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">47
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_GAIL.htm')">GAIL (INDIA) LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=GAIL">GAIL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">48
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_GLENMARK.htm')">GLENMARK PHARMACEUTICALS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=GLENMARK">GLENMARK</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">49
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_GMRINFRA.htm')">GMR INFRASTRUCTURE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=GMRINFRA">GMRINFRA</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">50
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_GODREJCP.htm')">GODREJ CONSUMER PRODUCTS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=GODREJCP">GODREJCP</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">51
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_GODREJPROP.htm')">GODREJ PROPERTIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=GODREJPROP">GODREJPROP</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">52
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_GRASIM.htm')">GRASIM INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=GRASIM">GRASIM</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">53
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HAVELLS.htm')">HAVELLS INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HAVELLS">HAVELLS</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">54
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HCLTECH.htm')">HCL TECHNOLOGIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HCLTECH">HCLTECH</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">55
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HDFCBANK.htm')">HDFC BANK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HDFCBANK">HDFCBANK</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">56
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HDFC.htm')">HOUSING DEVELOPMENT FINANCE CORPORATION LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HDFC">HDFC</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">57
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HDFCLIFE.htm')">HDFC LIFE INSURANCE COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HDFCLIFE">HDFCLIFE</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">58
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HEROMOTOCO.htm')">HERO MOTOCORP LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HEROMOTOCO">HEROMOTOCO</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">59
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HINDALCO.htm')">HINDALCO INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HINDALCO">HINDALCO</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">60
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HINDPETRO.htm')">HINDUSTAN PETROLEUM CORPORATION LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HINDPETRO">HINDPETRO</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">61
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_HINDUNILVR.htm')">HINDUSTAN UNILEVER LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=HINDUNILVR">HINDUNILVR</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">62
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ICICIBANK.htm')">ICICI BANK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ICICIBANK">ICICIBANK</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">63
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ICICIPRULI.htm')">ICICI PRUDENTIAL LIFE INSURANCE COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ICICIPRULI">ICICIPRULI</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">64
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_NAUKRI.htm')">INFO EDGE (INDIA) LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=NAUKRI">NAUKRI</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">65
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_IDEA.htm')">VODAFONE IDEA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=IDEA">IDEA</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">66
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_IDFCFIRSTB.htm')">IDFC FIRST BANK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=IDFCFIRSTB">IDFCFIRSTB</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">67
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_IBULHSGFIN.htm')">INDIABULLS HOUSING FINANCE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=IBULHSGFIN">IBULHSGFIN</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">68
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_IOC.htm')">INDIAN OIL CORPORATION LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=IOC">IOC</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">69
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_IGL.htm')">INDRAPRASTHA GAS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=IGL">IGL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">70
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_INDUSINDBK.htm')">INDUSIND BANK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=INDUSINDBK">INDUSINDBK</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">71
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_INFY.htm')">INFOSYS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=INFY">INFY</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">72
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_INDIGO.htm')">INTERGLOBE AVIATION LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=INDIGO">INDIGO</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">73
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ITC.htm')">ITC LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ITC">ITC</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">74
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_JINDALSTEL.htm')">JINDAL STEEL &amp; POWER LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=JINDALSTEL">JINDALSTEL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">75
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_JSWSTEEL.htm')">JSW STEEL LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=JSWSTEEL">JSWSTEEL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">76
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_JUBLFOOD.htm')">JUBILANT FOODWORKS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=JUBLFOOD">JUBLFOOD</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">77
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_KOTAKBANK.htm')">KOTAK MAHINDRA BANK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=KOTAKBANK">KOTAKBANK</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">78
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_L&amp;TFH.htm')">L&amp;T FINANCE HOLDINGS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=L%26TFH">L&amp;TFH</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">79
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_LT.htm')">LARSEN &amp; TOUBRO LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=LT">LT</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">80
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_LICHSGFIN.htm')">LIC HOUSING FINANCE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=LICHSGFIN">LICHSGFIN</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">81
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_LUPIN.htm')">LUPIN LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=LUPIN">LUPIN</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">82
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_M&amp;MFIN.htm')">MAHINDRA &amp; MAHINDRA FINANCIAL SERVICES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=M%26MFIN">M&amp;MFIN</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">83
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MGL.htm')">MAHANAGAR GAS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MGL">MGL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">84
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_M&amp;M.htm')">MAHINDRA &amp; MAHINDRA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=M%26M">M&amp;M</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">85
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MANAPPURAM.htm')">MANAPPURAM FINANCE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MANAPPURAM">MANAPPURAM</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">86
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MARICO.htm')">MARICO LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MARICO">MARICO</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">87
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MARUTI.htm')">MARUTI SUZUKI INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MARUTI">MARUTI</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">88
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MFSL.htm')">MAX FINANCIAL SERVICES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MFSL">MFSL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">89
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MINDTREE.htm')">MINDTREE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MINDTREE">MINDTREE</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">90
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MOTHERSUMI.htm')">MOTHERSON SUMI SYSTEMS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MOTHERSUMI">MOTHERSUMI</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">91
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MRF.htm')">MRF LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MRF">MRF</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">92
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MUTHOOTFIN.htm')">MUTHOOT FINANCE LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MUTHOOTFIN">MUTHOOTFIN</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">93
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_NATIONALUM.htm')">NATIONAL ALUMINIUM COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=NATIONALUM">NATIONALUM</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">94
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_NESTLEIND.htm')">NESTLE INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=NESTLEIND">NESTLEIND</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">95
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_NIITTECH.htm')">NIIT TECHNOLOGIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=NIITTECH">NIITTECH</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">96
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_NMDC.htm')">NMDC LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=NMDC">NMDC</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">97
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_NTPC.htm')">NTPC LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=NTPC">NTPC</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">98
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ONGC.htm')">OIL &amp; NATURAL GAS CORPORATION LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ONGC">ONGC</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">99
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_PAGEIND.htm')">PAGE INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=PAGEIND">PAGEIND</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">100
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_PETRONET.htm')">PETRONET LNG LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=PETRONET">PETRONET</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">101
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_PIDILITIND.htm')">PIDILITE INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=PIDILITIND">PIDILITIND</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">102
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_PEL.htm')">PIRAMAL ENTERPRISES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=PEL">PEL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">103
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_PFC.htm')">POWER FINANCE CORPORATION LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=PFC">PFC</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">104
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_POWERGRID.htm')">POWER GRID CORPORATION OF INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=POWERGRID">POWERGRID</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">105
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_PNB.htm')">PUNJAB NATIONAL BANK</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=PNB">PNB</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">106
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_PVR.htm')">PVR LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=PVR">PVR</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">107
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_RBLBANK.htm')">RBL BANK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=RBLBANK">RBLBANK</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">108
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_RELIANCE.htm')">RELIANCE INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=RELIANCE">RELIANCE</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">109
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_RECLTD.htm')">REC LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=RECLTD">RECLTD</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">110
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SHREECEM.htm')">SHREE CEMENT LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SHREECEM">SHREECEM</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">111
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SRTRANSFIN.htm')">SHRIRAM TRANSPORT FINANCE COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SRTRANSFIN">SRTRANSFIN</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">112
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SIEMENS.htm')">SIEMENS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SIEMENS">SIEMENS</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">113
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SRF.htm')">SRF LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SRF">SRF</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">114
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SBIN.htm')">STATE BANK OF INDIA</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SBIN">SBIN</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">115
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SBILIFE.htm')">SBI LIFE INSURANCE COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SBILIFE">SBILIFE</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">116
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SAIL.htm')">STEEL AUTHORITY OF INDIA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SAIL">SAIL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">117
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SUNPHARMA.htm')">SUN PHARMACEUTICAL INDUSTRIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SUNPHARMA">SUNPHARMA</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">118
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_SUNTV.htm')">SUN TV NETWORK LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=SUNTV">SUNTV</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">119
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TATACHEM.htm')">TATA CHEMICALS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TATACHEM">TATACHEM</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">120
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TCS.htm')">TATA CONSULTANCY SERVICES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TCS">TCS</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">121
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TATACONSUM.htm')">TATA CONSUMER PRODUCTS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TATACONSUM">TATACONSUM</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">122
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TATAMOTORS.htm')">TATA MOTORS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TATAMOTORS">TATAMOTORS</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">123
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TATAPOWER.htm')">TATA POWER COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TATAPOWER">TATAPOWER</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">124
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TATASTEEL.htm')">TATA STEEL LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TATASTEEL">TATASTEEL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">125
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TECHM.htm')">TECH MAHINDRA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TECHM">TECHM</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">126
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_RAMCOCEM.htm')">THE RAMCO CEMENTS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=RAMCOCEM">RAMCOCEM</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">127
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TITAN.htm')">TITAN COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TITAN">TITAN</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">128
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TORNTPHARM.htm')">TORRENT PHARMACEUTICALS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TORNTPHARM">TORNTPHARM</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">129
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TORNTPOWER.htm')">TORRENT POWER LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TORNTPOWER">TORNTPOWER</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">130
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_TVSMOTOR.htm')">TVS MOTOR COMPANY LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=TVSMOTOR">TVSMOTOR</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">131
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_UJJIVAN.htm')">UJJIVAN FINANCIAL SERVICES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=UJJIVAN">UJJIVAN</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">132
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ULTRACEMCO.htm')">ULTRATECH CEMENT LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ULTRACEMCO">ULTRACEMCO</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">133
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_UBL.htm')">UNITED BREWERIES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=UBL">UBL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">134
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_MCDOWELL-N.htm')">UNITED SPIRITS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=MCDOWELL-N">MCDOWELL-N</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">135
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_UPL.htm')">UPL LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=UPL">UPL</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">136
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_VEDL.htm')">VEDANTA LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=VEDL">VEDL</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">137
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_VOLTAS.htm')">VOLTAS LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=VOLTAS">VOLTAS</a>
+</td>
+</tr>
+<tr><td style="text-align: right;">138
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_WIPRO.htm')">WIPRO LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=WIPRO">WIPRO</a>
+</td>
+</tr>
+<tr class="alt"><td style="text-align: right;">139
+</td>
+<td class="normalText"><a style="cursor:pointer" onclick="loadUnderlyingList('/products/content/derivatives/equities/fo_ZEEL.htm')">ZEE ENTERTAINMENT ENTERPRISES LIMITED</a>
+</td>
+<td class="normalText"><a href="/products/dynaContent/derivatives/equities/fomwatchsymbol.jsp?key=ZEEL">ZEEL</a>
+</td>
+</tr>
+<tr><td colspan="3">
+
+<i>Last updated on Jul 31, 2020.</i> 
+</td></tr></tbody></table>
+
+</div>
+					
+				</div>
+			</div>
+			
+				<div class="clear"></div>
+			</div>
+			<!-- Main Content End --> 
+			<!--Footer Start-->
+			<div id="footer"></div>
+			<!--Footer End-->
+			<div class="clear"></div>
+		</div>
+		<!--Wrapper Bottom End--> 
+	</div>
+	<!--Content Big End--> 
+</div>
+<div class="footer_nav_main">
+	<div id="footer_nav"><div id="footerec" style="right: 132px;">	<p class="closefoot">		<a href="javascript:void(0);" class="hide">			Hide		</a>	</p>	<ul class="left" style="width: 420x;">		<li class="" style="border-right: 1px solid #424240;    color: #F0F0F0;    float: left;    font-size: 1.2em;    font-weight: bold;    width: auto;    z-index: 100;">			<a href="javascript:var printpopup=window.open(&quot;https://www.ncfm-india.com/ORE/OREloginPage.jsp&quot;,&quot;printpopup&quot;,&quot;location=no,menubar=yes,toolbar=no,resizable=no,scrollbars=yes,status=yes,maximizable=no,width=1200,height=800,screenX=0,screenY=0,left=0,top=0&quot;);printpopup.focus()" id="slide04" class="hide" style="background:none;padding: 0 0 2px 0;">				NCFM Online			</a>		</li>   <li class="" style="border-right: 1px solid #424240;    color: #F0F0F0;    float: left;    font-size: 1.2em;    font-weight: bold;    width: auto;    z-index: 100;">			<a href="javascript:var printpopup=window.open(&quot;http://www1.nseindia.com/emerge&quot;,&quot;printpopup&quot;,&quot;location=no,menubar=yes,toolbar=no,resizable=no,scrollbars=yes,status=yes,maximizable=no,width=1200,height=800,screenX=0,screenY=0,left=0,top=0&quot;);printpopup.focus()" id="slide06" class="hide" style="background:none;padding: 0 0 2px 0;">				EMERGE			</a>		</li>		<li class="" style="border-right: 1px solid #424240;    color: #F0F0F0;    float: left;    font-size: 1.2em;    font-weight: bold;    width: auto;    z-index: 100;">			<a href="javascript:var printpopup=window.open(&quot;/emerge_itp/emerge_itp.htm&quot;,&quot;printpopup&quot;,&quot;location=no,menubar=yes,toolbar=no,resizable=no,scrollbars=yes,status=yes,maximizable=no,width=1200,height=800,screenX=0,screenY=0,left=0,top=0&quot;);printpopup.focus()" id="slide08" class="hide" style="background:none;padding: 0 0 2px 0;">				EMERGE-ITP			</a>		</li>		<li class="" style="border-right: 1px solid #424240;    color: #F0F0F0;    float: left;    font-size: 1.2em;    font-weight: bold;    width: auto;    z-index: 100;">			<a href="javascript:var printpopup=window.open(&quot;https://www.nsekra.com&quot;,&quot;printpopup&quot;,&quot;location=no,menubar=yes,toolbar=no,resizable=no,scrollbars=yes,status=yes,maximizable=no,width=1200,height=800,screenX=0,screenY=0,left=0,top=0&quot;);printpopup.focus()" id="slide05" class="hide" style="background:none;padding: 0 0 2px 0;">				KRA			</a>		</li>	</ul>	<ul class="right">		<li class="footerSlide">			<a href="javascript:void(0)" id="slide03" class="hide" style="background: url(/common/images/arrow.png) no-repeat 0 0;background-position: 140px -64px;">				Recently Viewed Quotes			</a>		</li>		<li class="first footerSlide">			<a href="javascript:loadTickerData();" id="slide01" class="hide" style="background: url(/common/images/arrow.png) no-repeat 0 0;background-position: 37px -64px;">				Ticker			</a>		</li>	</ul>	<div class="slidingDiv" id="slide01Content" style="display: none;"><a href="javascript:void(0);" class="close"><img src="/common/images/close.gif" alt="Close" width="16" height="16"></a>	<p>			<select name="tickerSel" id="tickerSel" style="display: none;">				<option value="CM" selected="selected">Equities</option>			<option value="FUTIDX">FUTIDX</option>			<option value="FUTSTK">FUTSTK</option>			<option value="OPTIDX">OPTIDX</option>			<option value="OPTSTK">OPTSTK</option>		</select>		</p><ul>			<li><a id="aCM" onclick="$('#tickerSel').val('CM');loadTickerData();" href="javascript:void(0);">EQ</a></li>			<li><a id="aFUTIDX" onclick="$('#tickerSel').val('FUTIDX');loadTickerData();" href="javascript:void(0);">FUTIDX</a></li>			<li><a id="aFUTSTK" onclick="$('#tickerSel').val('FUTSTK');loadTickerData();" href="javascript:void(0);">FUTSTK</a></li>			<li><a id="aOPTIDX" onclick="$('#tickerSel').val('OPTIDX');loadTickerData();" href="javascript:void(0);">OPTIDX</a></li>			<li class="last"><a id="aOPTSTK" onclick="$('#tickerSel').val('OPTSTK');loadTickerData();" href="javascript:void(0);">OPTSTK</a></li>		</ul>	<p></p><p style="clear:both;">	</p><div id="tickerData"></div><p></p></div>	<div class="slidingDiv sliding02" id="slide02Content" style="display: none;">		<a href="javascript:void(0)" class="close">			<img src="/common/images/close.gif" alt="Close" width="16" height="16">		</a>	</div> 	<div class="slidingDiv sliding03" id="slide03Content" style="display: none;">	<ul id="recentQuotesD"></ul>		<a href="javascript:void(0)" class="close">			<img src="/common/images/close.gif" alt="Close" width="16" height="16">		</a>	</div></div></div>
+</div><div class="clear"></div>           <div class="height40"></div>		           <div class="mediyaIcons">           	<div class="m_LeftPannel">               	<ul>                   	<li class="first">NSE group companies</li>                       <li>NSE Clearing</li>                       <li>NSETECH</li>                       <li>NSE Indices</li>                       <li>NSE Data &amp; Analytics</li>                       <li>NSEIT</li>                       <li>NSE Investments</li>                   </ul>                   <div class="clear"></div>                   <p><a href="/copyright.htm" '=""><font color="#F68B1F">Copyright © 2017</font></a> National Stock Exchange of India Ltd. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp; Best viewed in IE8+ and 1024 x 768 resolution.</p>               </div>               <div class="m_rightPannel">	                   <div class="clear"></div>                   <div class="bottom_links" style="padding-top: 38px"><a href="/global/content/termsofuse.htm">Terms of Use</a> | <a href="/global/content/disclaimer.htm">Disclaimer</a> | <a href="/sitemap.htm">Sitemap</a></div>               </div>               <div class="clear"></div>           </div><div class="height40"></div>		           
+
+<script>
+
+function loadUnderlyingList(url1)
+{
+	$.ajax({
+		url: url1,
+		success : function(data, textStatus, XMLHttpRequest) {
+		//	alert(data);
+			$('#replacetext').html(data);
+			$('tr:even').addClass("alt");
+						
+		}
+	});
+	$('#backLink').show();
+}
+
+$(document).ready(function(){
+		//alert("Hi<><><><><><><>");
+		loadUnderlyingList('/products/content/derivatives/equities/fo_underlyinglist.htm');
+		$('#backLink').hide();
+		
+	});
+
+
+</script>
+
+
+
+
+<noscript><img src="https://www1.nseindia.com/akam/11/pixel_58ca22bc?a=dD00NDFjZWRmNGExYTEwZWZmYTBmNDM1N2ZjMDY1MmFhNThmZmZiMDhiJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+
+</body></html>
