@@ -1,6 +1,6 @@
 ## Stock Alert
 
-The stock alert app creates alerts on your  screen whenever stocks reflect your technical analysis conditionality. It is created using [chartink](https://chartink.com) which is used to create technical tools for Indian stock market. This web app provides free screeners for weekly, monthly trades. Also, the app creates alerts only if the stock belongs to nifty50 list to avoid unecessary alerts of countless stocks.
+The stock alert app creates alerts on your  screen whenever stocks reflect your technical analysis conditionality. It is created using [chartink](https://chartink.com) which is used to create technical tools for Indian stock market and provides free screeners for weekly, monthly trades. Also, the app creates alerts only if the stock belongs to nifty50 list to avoid unecessary alerts of countless stocks.
 
 The app.py file is the main file to run the app. The app runs using [selenium's Firefox webdriver (geckodriver v0.26)](https://github.com/mozilla/geckodriver/releases/tag/v0.26.0).
 
