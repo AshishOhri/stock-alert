@@ -11,4 +11,4 @@ The app.py file is the main file to run the app. The app runs using [selenium's 
 |requirements.txt| All external libraries to be downloaded|
 
 #### Screenshot of Alert
-<img src="https://github.com/AshishOhri/stock-alert/blob/master/capture.JPG" width="400px">
+<img src="https://github.com/AshishOhri/stock-alert/blob/master/images/capture.JPG" width="400px">
